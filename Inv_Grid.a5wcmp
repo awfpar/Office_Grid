@@ -9,7 +9,7 @@
         "flagTreeViewGrid": true,
         "flagTreeViewDV": true,
         "componentType": "Grid",
-        "Xbasic": "dim tmpl as p\ntmpl.ComponentName = \"Inv_Grid\"\ntmpl.ComponentType = \"Grid\"\ntmpl.AjaxOn = .t.\ntmpl.LayoutColumns = 1\ntmpl.useCompactTheme = .t.\ntmpl.showPulseEffect = .t.\ntmpl.queryEcho = .f.\ntmpl.connectToWebSocketServer = .f.\ntmpl.flagAddPKToORDER = .t.\ntmpl.saveFileType = \"Formatted JSON\"\ntmpl.captureJSErrorStackTrace = .f.\ntmpl.SecurityModel = \"Group Based\"\ntmpl.SecurityMode = \"\"\ntmpl.PreCalcMode = \"Standard\"\ntmpl.clientSideDateFormat = \"dd/MM/yyyy\"\ntmpl.publishedServerVariables = \"\"\ntmpl.datePicker.dayNames = \"Sun,Mon,Tue,Wed,Thu,Fri,Sat\"\ntmpl.datePicker.firstDayOfWeek = 1\ntmpl.datePicker.monthNames = \"January,February,March,April,May,June,July,August,September,October,November,December\"\ntmpl.datePicker.todayButtonText = \"Today\"\ntmpl.datePicker.closeButtonText = \"Close\"\ntmpl.datePicker.closeButtonText = \"Close\"\ntmpl.friendlydatesCustomizationJSON = \"\"\ntmpl.customizationString.javascriptDialogs = \"\"\ntmpl.iconMapOverrides = \"\"\ntmpl.DataSourceType = \"CS\"\ntmpl.CS.database_type = \"CS\"\ntmpl.CS.type = \"connectionstring\"\ntmpl.cs.ConnectionString  = \"::name::AnchCustomers\"\ntmpl.CS.SQL = \"SELECT [Invoice Number], [Sold to Customer], [Subject], [Ship to Customer], [Work Order Number] FROM [Invoice]\"\nDIM tmpl.Arguments[1] AS P\nwith tmpl.Arguments[1]\n\t.Name = \"\"\n\t.DataType = \"\"\n\t.Source = \"\"\n\t.SourceDisplay = \"\"\n\t.VariableScope = \"\"\n\t.VariableName = \"\"\n\t.VariableWithScope = \"\"\n\t.DefaultValue = \"\"\n\t.Prompt = .f.\n\t.PromptText = \"\"\n\t.PromptControlType = \"\"\n\t.PromptChoices = \"\"\n\t.PromptDlgTitle = \"\"\n\t.PromptTextAbove = \"\"\n\t.PreviewValue = \"\"\nend with\nDIM tmpl.ArgumentsPage AS P\nwith tmpl.ArgumentsPage\n\t.PromptTextAbove = \"\"\nend with\ntmpl.CS.PrimaryKeyColumns = \"Invoice Number\"\ntmpl.CS.IdentitySequenceName  = \"\"\ntmpl.CS.primaryKeyTopAliasIsAutoIncrement  = .f.\ntmpl.grid_layout_style = 1\ntmpl.add_records_only = .f.\ntmpl.rows = 100\ntmpl.maxRowsPerPage = 200\ntmpl.rowsWhenSearchActive = -1\ntmpl.suppress_empty_rows = .t.\ntmpl.has_row_separator = .t.\ntmpl.alternate_bands = .f.\ntmpl.even_band_size = 1\ntmpl.odd_band_size = 1\ntmpl.alternate_column_bands = .f.\ntmpl.even_column_band_size = 1\ntmpl.odd_column_band_size = 1\ntmpl.conditionalStyle = \"\"\ntmpl.clientSideConditionalStyle = \"\"\ntmpl.show_title = .t.\ntmpl.title = \"<strong><font size=\\\"6\\\">Invoices </font> </strong>\"\ntmpl.FontSize = \"Medium\"\ntmpl.No_records_message = \"No records in query\"\ntmpl.total_records_row_position = 1\ntmpl.total_records_row = \"Records:&nbsp; {Total_Records}&nbsp;\"\ntmpl.show_column_titles = 1\ntmpl.suppress_titles_if_no_records = .f.\ntmpl.show_row_labels = .t.\ntmpl.snakingLayout_suppressRepeatedLabels = .f.\ntmpl.sort_style = 3\ntmpl.reset_page_number_when_sorting = .t.\ntmpl.allowGridBodyScrolling = .f.\ntmpl.scrollableRegionHeight = \"2in\"\ntmpl.scrollableRegionWidth = \"100%\"\ntmpl.fixedWidthColumns = .f.\ntmpl.defaultColumnWidth = \"1in\"\ntmpl.columnWidthSettings = \"\"\ntmpl.EditRegion.Grid.Top = <<%editregion%\n%editregion%\ntmpl.EditRegion.Grid.Bottom = <<%editregion%\n%editregion%\ntmpl.EditRegion.Grid.Left = <<%editregion%\n%editregion%\ntmpl.EditRegion.Grid.Right = <<%editregion%\n%editregion%\ntmpl.HasNewRecordsTitle = .f.\ntmpl.NewRecordsTitle = \"<tr><td class=\\\"[class.gridData]\\\" colspan=\\\"{a5_colspan}\\\" style=\\\"padding: 0px;\\\" >New Records</td></tr>\"\ntmpl.HasExistingRecordsTitle = .f.\ntmpl.ExistingRecordsTitle = \"<tr><td class=\\\"[class.gridData]\\\" colspan=\\\"{a5_colspan}\\\" style=\\\"padding: 0px;\\\" >Existing Records</td></tr>\"\ntmpl.Highlight_row_onHover =  .t.\ntmpl.Highlight_row_onSelect =  .t.\ntmpl.HasRecordsPerPageSelector = .t.\ntmpl.RecordsPerPageChoices =   \"1,2,5,10,25,50,75,100\"\ntmpl.RecordsPerPageSelectorTemplate = \"&nbsp;&nbsp;{Grid.RecordsPerPageSelector} Records per page\"\ntmpl.has_qbe_row = .f.\ntmpl.qbe.initial_display = \"Hidden\"\ntmpl.qbe.toggleQBERowHyperlinkText = \"Show/Hide QBE Row\"\ntmpl.has_advancedSearch = .f.\ntmpl.hasLinkedContent = .f.\ntmpl.hasExternalNavigators = .f.\ntmpl.hasRowExpandColumn = .t.\ntmpl.RowExpand.Type = \"LinkedContent\"\ntmpl.RowExpand.Mode = \"Multiple\"\ntmpl.RowExpand.ExpandFirstRowOnLoad = .f.\ntmpl.RowExpand.ExpandMethod = \"Click icon\"\ntmpl.RowExpand.bubbleHelp = \"\"\ndim tmpl.RowExpandGrids[1] as P\nwith tmpl.RowExpandGrids[1]\n\t.objectType = \"Grid\"\n\t.securityGroups = \"\"\n\t.showHideExpression = \"\"\n\t.gridName = \"Inv_LineItems_Grid\"\n\t.linkFields = \"Invoice Number (C) = Invoice Number (C)\"\n\t.hideLinkFields = .f.\n\t.inheritParentStyle = .t.\n\t.OverrideSettings = \"\"\nend with\ntmpl.RowExpand.WorkingMessage=<<%txt%\n<div style=\"width: 4in; height: .5in\">\n\t<img src=\"css/A5System/Images/wait.gif\" /> Working...\n</div> \n%txt%\ntmpl.RowExpand.AutoRefreshOnExpand=.f.\ntmpl.rowExpand.hasAnimation = .f.\ntmpl.hasSelectedRowColumn = .t.\ntmpl.hasCheckboxSelectColumn = .f.\ntmpl.AdditionalGridStyles = \"\"\ntmpl.LocalCss = \"\"\ntmpl.CSSLinkedFiles = \"\"\ntmpl.localsvg = \"\"\ntmpl.SVGLinkedFiles = \"\"\ntmpl.CSSIcons = \"\"\ntmpl.JavaScriptLinkedFiles = \"\"\ntmpl.useMasterTemplate = .f.\ntmpl.MasterTemplateStyle = \"Table - Vertical Layout\"\ntmpl.MasterLayoutTemplate = \"\"\ntmpl.MasterLayoutTemplateJavascript = \"\"\ntmpl.MasterLayout.PaneLabel.Search = \"Search\"\ntmpl.MasterLayout.PaneLabel.Grid = \"Grid\"\ntmpl.MasterLayout.PaneLabel.DetailView = \"Detail\"\ntmpl.MasterLayout.AccordionStyle = \"Multiple\"\ntmpl.MasterLayout.InitialOpenPanes = \"Search,Grid,DetailView\"\ntmpl.verticalAlignDataInColumns = \"Middle\"\ntmpl.CanCollapseGrid = .f.\ntmpl.CollapseBar.Title = \"Collapse Grid\"\ntmpl.CollapseBar.OpenIcon = \"\"\ntmpl.CollapseBar.ClosedIcon = \"\"\ntmpl.CollapseBar.Style = \"\"\ntmpl.Collapsebar.Class = \"\"\ntmpl.Collapsebar.ContainerStyle = \"\"\ntmpl.Collapsebar.ContainerClass = \"\"\ntmpl.Collapsebar.InitialState = \"open\"\ntmpl.languageTags_RemoveUnConsumedTags = .t.\ntmpl.activeLanguage = \"<Default>\"\ntmpl.search.highlightSearchStrings = .f.\ntmpl.autoRefreshGrid = .f.\ntmpl.autoRefreshInterval = 60\ntmpl.helpTableType = \"DBF\"\ntmpl.helpTableName = \"\"\ntmpl.helpConnectionString = \"\"\ntmpl.helpIDfield = \"\"\ntmpl.helpContentsField = \"\"\ntmpl.fieldHelpWindowStyle = \"modal-resizeable\"\ntmpl.fields = 5\nDIM tmpl.field_info[tmpl.fields] as P \nwith tmpl.field_info[1]\n\t.Fieldname = \"Invoice Number\"\n\t.Scope = \"Local\"\n\t.DisplayFormat = \"\"\n\t.DisplayUnFormat = \"\"\n\t.ConditionalStyle = \"\"\n\t.ConditionalStyleLevel = \"Cell\"\n\t.ClientSideConditionalStyle = \"\"\n\t.ClientSideConditionalStyleLevel = \"Cell\"\n\t.QBEDisable = .f.\n\t.QBEInlineStyle = \"\"\n\t.QBEOptionsJSON = \"\"\n\t.canBeUsedInWhereClause = .t.\n\t.autoincrement = .f.\n\t.portableType = \"NationalVaryingCharacter\"\n\t.nativeType = \"nvarchar\"\n\t.Type = \"C\"\n\t.UserDefinedClientSideValidationJavascript = \"\"\n\t.onChange_ValidationOption = \"None\"\n\t.Varname = \"INVOICE_NUMBER\"\n\t.Column.LabelPosition = \"Left\"\n\t.Controltype = \"Label\"\n\t.Label.InLineStyle = \"\"\n\t.Label.ClassName = \"\"\n\t.BreakType = \"None\"\n\t.nCols = 1\n\t.Column.Hide = .f.\n\t.BaseFieldExpression = \"[Invoice Number]\"\n\t.SourceAlias = \"\"\n\t.Column.Heading = \"Invoice Number\"\n\t.Column.Sort = \"[Invoice Number]\"\n\t.Column.FirstClickDirection = \"A\"\nend with\nwith tmpl.field_info[2]\n\t.Fieldname = \"Sold to Customer\"\n\t.Scope = \"Local\"\n\t.DisplayFormat = \"\"\n\t.DisplayUnFormat = \"\"\n\t.ConditionalStyle = \"\"\n\t.ConditionalStyleLevel = \"Cell\"\n\t.ClientSideConditionalStyle = \"\"\n\t.ClientSideConditionalStyleLevel = \"Cell\"\n\t.QBEDisable = .f.\n\t.QBEInlineStyle = \"\"\n\t.QBEOptionsJSON = \"\"\n\t.canBeUsedInWhereClause = .t.\n\t.autoincrement = .f.\n\t.portableType = \"NationalVaryingCharacter\"\n\t.nativeType = \"nvarchar\"\n\t.Type = \"C\"\n\t.UserDefinedClientSideValidationJavascript = \"\"\n\t.onChange_ValidationOption = \"None\"\n\t.Varname = \"SOLD_TO_CUSTOMER\"\n\t.Column.LabelPosition = \"Left\"\n\t.Controltype = \"Label\"\n\t.Label.InLineStyle = \"\"\n\t.Label.ClassName = \"\"\n\t.BreakType = \"None\"\n\t.nCols = 1\n\t.Column.Hide = .f.\n\t.BaseFieldExpression = \"[Sold to Customer]\"\n\t.SourceAlias = \"\"\n\t.Column.Heading = \"Sold To Customer\"\n\t.Column.Sort = \"[Sold to Customer]\"\n\t.Column.FirstClickDirection = \"A\"\nend with\nwith tmpl.field_info[3]\n\t.Fieldname = \"Subject\"\n\t.Scope = \"Local\"\n\t.DisplayFormat = \"\"\n\t.DisplayUnFormat = \"\"\n\t.ConditionalStyle = \"\"\n\t.ConditionalStyleLevel = \"Cell\"\n\t.ClientSideConditionalStyle = \"\"\n\t.ClientSideConditionalStyleLevel = \"Cell\"\n\t.QBEDisable = .f.\n\t.QBEInlineStyle = \"\"\n\t.QBEOptionsJSON = \"\"\n\t.canBeUsedInWhereClause = .t.\n\t.autoincrement = .f.\n\t.portableType = \"NationalVaryingCharacter\"\n\t.nativeType = \"nvarchar\"\n\t.Type = \"C\"\n\t.UserDefinedClientSideValidationJavascript = \"\"\n\t.onChange_ValidationOption = \"None\"\n\t.Varname = \"SUBJECT\"\n\t.Column.LabelPosition = \"Left\"\n\t.Controltype = \"Label\"\n\t.Label.InLineStyle = \"\"\n\t.Label.ClassName = \"\"\n\t.BreakType = \"None\"\n\t.nCols = 1\n\t.Column.Hide = .f.\n\t.BaseFieldExpression = \"Subject\"\n\t.SourceAlias = \"\"\n\t.Column.Heading = \"Subject\"\n\t.Column.Sort = \"Subject\"\n\t.Column.FirstClickDirection = \"A\"\nend with\nwith tmpl.field_info[4]\n\t.Fieldname = \"Ship to Customer\"\n\t.Scope = \"Local\"\n\t.DisplayFormat = \"\"\n\t.DisplayUnFormat = \"\"\n\t.ConditionalStyle = \"\"\n\t.ConditionalStyleLevel = \"Cell\"\n\t.ClientSideConditionalStyle = \"\"\n\t.ClientSideConditionalStyleLevel = \"Cell\"\n\t.QBEDisable = .f.\n\t.QBEInlineStyle = \"\"\n\t.QBEOptionsJSON = \"\"\n\t.canBeUsedInWhereClause = .t.\n\t.autoincrement = .f.\n\t.portableType = \"NationalVaryingCharacter\"\n\t.nativeType = \"nvarchar\"\n\t.Type = \"C\"\n\t.UserDefinedClientSideValidationJavascript = \"\"\n\t.onChange_ValidationOption = \"None\"\n\t.Varname = \"SHIP_TO_CUSTOMER\"\n\t.Column.LabelPosition = \"Left\"\n\t.Controltype = \"Label\"\n\t.Label.InLineStyle = \"\"\n\t.Label.ClassName = \"\"\n\t.BreakType = \"None\"\n\t.nCols = 1\n\t.Column.Hide = .f.\n\t.BaseFieldExpression = \"[Ship to Customer]\"\n\t.SourceAlias = \"\"\n\t.Column.Heading = \"Ship To Customer\"\n\t.Column.Sort = \"[Ship to Customer]\"\n\t.Column.FirstClickDirection = \"A\"\nend with\nwith tmpl.field_info[5]\n\t.Fieldname = \"Work Order Number\"\n\t.Scope = \"Local\"\n\t.DisplayFormat = \"\"\n\t.DisplayUnFormat = \"\"\n\t.ConditionalStyle = \"\"\n\t.ConditionalStyleLevel = \"Cell\"\n\t.ClientSideConditionalStyle = \"\"\n\t.ClientSideConditionalStyleLevel = \"Cell\"\n\t.QBEDisable = .f.\n\t.QBEInlineStyle = \"\"\n\t.QBEOptionsJSON = \"\"\n\t.canBeUsedInWhereClause = .t.\n\t.autoincrement = .f.\n\t.portableType = \"NationalVaryingCharacter\"\n\t.nativeType = \"nvarchar\"\n\t.Type = \"C\"\n\t.UserDefinedClientSideValidationJavascript = \"\"\n\t.onChange_ValidationOption = \"None\"\n\t.Varname = \"WORK_ORDER_NUMBER\"\n\t.Column.LabelPosition = \"Left\"\n\t.Controltype = \"Label\"\n\t.Label.InLineStyle = \"\"\n\t.Label.ClassName = \"\"\n\t.BreakType = \"None\"\n\t.nCols = 1\n\t.Column.Hide = .f.\n\t.BaseFieldExpression = \"[Work Order Number]\"\n\t.SourceAlias = \"\"\n\t.Column.Heading = \"Work Order Number\"\n\t.Column.Sort = \"[Work Order Number]\"\n\t.Column.FirstClickDirection = \"A\"\nend with\ntmpl.RecordNavigationStyle = \"NavigationButtons\"\ntmpl.fetchMoreRecordsButton.text = \"More Records\"\ntmpl.fetchMoreRecordsButton.style = \"\"\ntmpl.RecNav.SuppressIfOnlyOnePage = .t.\ntmpl.RecNav.First_Label = \"First\"\ntmpl.RecNav.Has_First_Button = .t.\ntmpl.RecNav.Has_Last_Button = .t.\ntmpl.RecNav.Has_Next_Button = .t.\ntmpl.RecNav.Has_Prev_Button = .t.\ntmpl.RecNav.HTML_Template_source = \"Computed\"\ntmpl.RecNav.Justify = \"Left\"\ntmpl.RecNav.Last_Label = \"Last\"\ntmpl.RecNav.Next_Label = \"Next\"\ntmpl.RecNav.Number_of_page_links = 10\ntmpl.RecNav.Page_Numbering_Style = 3\ntmpl.RecNav.PagesTemplate_w_PageCount = \"{PageNumber} of {PageCount}\"\ntmpl.RecNav.PagesTemplate_wout_PageCount = \"{PageNumber}\"\ntmpl.RecNav.Position = 1\ntmpl.RecNav.suppress_recNavBar_if_no_records = .f.\ntmpl.RecNav.Prev_Label = \"Prev\"\ntmpl.RecNav.Show_disabled_controls = .t.\ntmpl.RecNav.Show_Page_Count = .t.\ntmpl.RecNav.Use_Images = .f.\ntmpl.gridToolbarTemplate = <<%html%\n%html%\ntmpl.gridToolbarTemplateEditable = <<%html%\n%html%\ntmpl.style_name = \"MobRed\"\ntmpl.resolveAbstractClassNames = .t.\ntmpl.style_type = \"Alpha Five\"\ntmpl.UseSimpleStyles = .f.\ntmpl.overrideStylesForJavascriptObjects = .f.\ntmpl.searchBehavior = \"\"\ntmpl.GUID = \"88cc8329-a8ac-4c9e-976a-47f4bb6a97c5\"\ntmpl.onlyIncludeSelectedFieldsInQuery = .t.\ntmpl.hasGroupBreaks = .f.\ntmpl.groupBreaks.expression1 = \"\"\ntmpl.groupBreaks.direction1 = \"\"\ntmpl.groupBreaks.header1 = <<%HTML%\n%HTML%\ntmpl.groupBreaks.footer1 = <<%HTML%\n%HTML%\ntmpl.groupBreaks.collapseAllGroupsOnInitialDisplay = .f.\ntmpl.timestamp = \"2019-08-28:17-06-57.015\"\ntmpl.resolveAbstractClassNamesAtDesignTime  = .f.\ntmpl.resolveAbstractIconNamesAtDesignTime = .f. \ntmpl.useLegacyDatePicker = .f.\ntmpl.javascriptUnboundActionDefinitions = <<%javascriptActions%\n%javascriptActions%\n\ntmpl.precalc.sessionVarsInShowHideExpns = <<%sessionvars%\n%sessionvars%\ntmpl.precalc.unboundActionsXbasicFunctions = \"\"\ntmpl.precalc.includeS3Javascript = .f.",
+        "Xbasic": "dim tmpl as p\ntmpl.ComponentName = \"Inv_Grid\"\ntmpl.ComponentType = \"Grid\"\ntmpl.AjaxOn = .t.\ntmpl.LayoutColumns = 1\ntmpl.useCompactTheme = .t.\ntmpl.showPulseEffect = .t.\ntmpl.queryEcho = .f.\ntmpl.connectToWebSocketServer = .f.\ntmpl.flagAddPKToORDER = .t.\ntmpl.saveFileType = \"Formatted JSON\"\ntmpl.captureJSErrorStackTrace = .f.\ntmpl.SecurityModel = \"Group Based\"\ntmpl.SecurityMode = \"\"\ntmpl.PreCalcMode = \"Standard\"\ntmpl.clientSideDateFormat = \"dd/MM/yyyy\"\ntmpl.publishedServerVariables = \"\"\ntmpl.datePicker.dayNames = \"Sun,Mon,Tue,Wed,Thu,Fri,Sat\"\ntmpl.datePicker.firstDayOfWeek = 1\ntmpl.datePicker.monthNames = \"January,February,March,April,May,June,July,August,September,October,November,December\"\ntmpl.datePicker.todayButtonText = \"Today\"\ntmpl.datePicker.closeButtonText = \"Close\"\ntmpl.datePicker.closeButtonText = \"Close\"\ntmpl.friendlydatesCustomizationJSON = \"\"\ntmpl.customizationString.javascriptDialogs = \"\"\ntmpl.iconMapOverrides = \"\"\ntmpl.DataSourceType = \"CS\"\ntmpl.CS.database_type = \"CS\"\ntmpl.CS.type = \"connectionstring\"\ntmpl.cs.ConnectionString  = \"::name::AnchCustomers\"\ntmpl.CS.SQL = \"SELECT [Invoice Number], [Sold to Customer], [Subject], [Ship to Customer], [Work Order Number] FROM [Invoice]\"\nDIM tmpl.Arguments[1] AS P\nwith tmpl.Arguments[1]\n\t.Name = \"\"\n\t.DataType = \"\"\n\t.Source = \"\"\n\t.SourceDisplay = \"\"\n\t.VariableScope = \"\"\n\t.VariableName = \"\"\n\t.VariableWithScope = \"\"\n\t.DefaultValue = \"\"\n\t.Prompt = .f.\n\t.PromptText = \"\"\n\t.PromptControlType = \"\"\n\t.PromptChoices = \"\"\n\t.PromptDlgTitle = \"\"\n\t.PromptTextAbove = \"\"\n\t.PreviewValue = \"\"\nend with\nDIM tmpl.ArgumentsPage AS P\nwith tmpl.ArgumentsPage\n\t.PromptTextAbove = \"\"\nend with\ntmpl.CS.PrimaryKeyColumns = \"Invoice Number\"\ntmpl.CS.IdentitySequenceName  = \"\"\ntmpl.CS.primaryKeyTopAliasIsAutoIncrement  = .f.\ntmpl.grid_layout_style = 1\ntmpl.add_records_only = .f.\ntmpl.rows = 100\ntmpl.maxRowsPerPage = 200\ntmpl.rowsWhenSearchActive = -1\ntmpl.suppress_empty_rows = .t.\ntmpl.has_row_separator = .t.\ntmpl.alternate_bands = .f.\ntmpl.even_band_size = 1\ntmpl.odd_band_size = 1\ntmpl.alternate_column_bands = .f.\ntmpl.even_column_band_size = 1\ntmpl.odd_column_band_size = 1\ntmpl.conditionalStyle = \"\"\ntmpl.clientSideConditionalStyle = \"\"\ntmpl.show_title = .t.\ntmpl.title = \"<strong><font size=\\\"2\\\">Invoices </font> </strong>\"\ntmpl.FontSize = \"Medium\"\ntmpl.No_records_message = \"No records in query\"\ntmpl.total_records_row_position = 1\ntmpl.total_records_row = \"Records:&nbsp; {Total_Records}&nbsp;\"\ntmpl.show_column_titles = 1\ntmpl.suppress_titles_if_no_records = .f.\ntmpl.show_row_labels = .t.\ntmpl.snakingLayout_suppressRepeatedLabels = .f.\ntmpl.sort_style = 3\ntmpl.reset_page_number_when_sorting = .t.\ntmpl.allowGridBodyScrolling = .f.\ntmpl.scrollableRegionHeight = \"2in\"\ntmpl.scrollableRegionWidth = \"100%\"\ntmpl.fixedWidthColumns = .f.\ntmpl.defaultColumnWidth = \"1in\"\ntmpl.columnWidthSettings = \"\"\ntmpl.EditRegion.Grid.Top = <<%editregion%\n%editregion%\ntmpl.EditRegion.Grid.Bottom = <<%editregion%\n%editregion%\ntmpl.EditRegion.Grid.Left = <<%editregion%\n%editregion%\ntmpl.EditRegion.Grid.Right = <<%editregion%\n%editregion%\ntmpl.HasNewRecordsTitle = .f.\ntmpl.NewRecordsTitle = \"<tr><td class=\\\"[class.gridData]\\\" colspan=\\\"{a5_colspan}\\\" style=\\\"padding: 0px;\\\" >New Records</td></tr>\"\ntmpl.HasExistingRecordsTitle = .f.\ntmpl.ExistingRecordsTitle = \"<tr><td class=\\\"[class.gridData]\\\" colspan=\\\"{a5_colspan}\\\" style=\\\"padding: 0px;\\\" >Existing Records</td></tr>\"\ntmpl.Highlight_row_onHover =  .t.\ntmpl.Highlight_row_onSelect =  .t.\ntmpl.HasRecordsPerPageSelector = .t.\ntmpl.RecordsPerPageChoices =   \"1,2,5,10,25,50,75,100\"\ntmpl.RecordsPerPageSelectorTemplate = \"&nbsp;&nbsp;{Grid.RecordsPerPageSelector} Records per page\"\ntmpl.has_qbe_row = .f.\ntmpl.qbe.initial_display = \"Hidden\"\ntmpl.qbe.toggleQBERowHyperlinkText = \"Show/Hide QBE Row\"\ntmpl.has_advancedSearch = .f.\ntmpl.hasLinkedContent = .f.\ntmpl.hasExternalNavigators = .f.\ntmpl.hasRowExpandColumn = .t.\ntmpl.RowExpand.Type = \"LinkedContent\"\ntmpl.RowExpand.Mode = \"Multiple\"\ntmpl.RowExpand.ExpandFirstRowOnLoad = .f.\ntmpl.RowExpand.ExpandMethod = \"Click icon\"\ntmpl.RowExpand.bubbleHelp = \"\"\ndim tmpl.RowExpandGrids[1] as P\nwith tmpl.RowExpandGrids[1]\n\t.objectType = \"Grid\"\n\t.securityGroups = \"\"\n\t.showHideExpression = \"\"\n\t.gridName = \"Inv_LineItems_Grid\"\n\t.linkFields = \"Invoice Number (C) = Invoice Number (C)\"\n\t.hideLinkFields = .f.\n\t.inheritParentStyle = .t.\n\t.OverrideSettings = \"\"\nend with\ntmpl.RowExpand.WorkingMessage=<<%txt%\n<div style=\"width: 4in; height: .5in\">\n\t<img src=\"css/A5System/Images/wait.gif\" /> Working...\n</div> \n%txt%\ntmpl.RowExpand.AutoRefreshOnExpand=.f.\ntmpl.rowExpand.hasAnimation = .f.\ntmpl.hasSelectedRowColumn = .t.\ntmpl.hasCheckboxSelectColumn = .f.\ntmpl.AdditionalGridStyles = \"\"\ntmpl.LocalCss = \"\"\ntmpl.CSSLinkedFiles = \"\"\ntmpl.localsvg = \"\"\ntmpl.SVGLinkedFiles = \"\"\ntmpl.CSSIcons = \"\"\ntmpl.JavaScriptLinkedFiles = \"\"\ntmpl.useMasterTemplate = .f.\ntmpl.MasterTemplateStyle = \"Table - Vertical Layout\"\ntmpl.MasterLayoutTemplate = \"\"\ntmpl.MasterLayoutTemplateJavascript = \"\"\ntmpl.MasterLayout.PaneLabel.Search = \"Search\"\ntmpl.MasterLayout.PaneLabel.Grid = \"Grid\"\ntmpl.MasterLayout.PaneLabel.DetailView = \"Detail\"\ntmpl.MasterLayout.AccordionStyle = \"Multiple\"\ntmpl.MasterLayout.InitialOpenPanes = \"Search,Grid,DetailView\"\ntmpl.verticalAlignDataInColumns = \"Middle\"\ntmpl.CanCollapseGrid = .f.\ntmpl.CollapseBar.Title = \"Collapse Grid\"\ntmpl.CollapseBar.OpenIcon = \"\"\ntmpl.CollapseBar.ClosedIcon = \"\"\ntmpl.CollapseBar.Style = \"\"\ntmpl.Collapsebar.Class = \"\"\ntmpl.Collapsebar.ContainerStyle = \"\"\ntmpl.Collapsebar.ContainerClass = \"\"\ntmpl.Collapsebar.InitialState = \"open\"\ntmpl.languageTags_RemoveUnConsumedTags = .t.\ntmpl.activeLanguage = \"<Default>\"\ntmpl.search.highlightSearchStrings = .f.\ntmpl.autoRefreshGrid = .f.\ntmpl.autoRefreshInterval = 60\ntmpl.helpTableType = \"DBF\"\ntmpl.helpTableName = \"\"\ntmpl.helpConnectionString = \"\"\ntmpl.helpIDfield = \"\"\ntmpl.helpContentsField = \"\"\ntmpl.fieldHelpWindowStyle = \"modal-resizeable\"\ntmpl.fields = 5\nDIM tmpl.field_info[tmpl.fields] as P \nwith tmpl.field_info[1]\n\t.Fieldname = \"Invoice Number\"\n\t.Scope = \"Local\"\n\t.DisplayFormat = \"\"\n\t.DisplayUnFormat = \"\"\n\t.ConditionalStyle = \"\"\n\t.ConditionalStyleLevel = \"Cell\"\n\t.ClientSideConditionalStyle = \"\"\n\t.ClientSideConditionalStyleLevel = \"Cell\"\n\t.QBEDisable = .f.\n\t.QBEInlineStyle = \"\"\n\t.QBEOptionsJSON = \"\"\n\t.canBeUsedInWhereClause = .t.\n\t.autoincrement = .f.\n\t.portableType = \"NationalVaryingCharacter\"\n\t.nativeType = \"nvarchar\"\n\t.Type = \"C\"\n\t.UserDefinedClientSideValidationJavascript = \"\"\n\t.onChange_ValidationOption = \"None\"\n\t.Varname = \"INVOICE_NUMBER\"\n\t.Column.LabelPosition = \"Left\"\n\t.Controltype = \"Label\"\n\t.Label.InLineStyle = \"\"\n\t.Label.ClassName = \"\"\n\t.BreakType = \"None\"\n\t.nCols = 1\n\t.Column.Hide = .f.\n\t.BaseFieldExpression = \"[Invoice Number]\"\n\t.SourceAlias = \"\"\n\t.Column.Heading = \"Invoice Number\"\n\t.Column.Sort = \"[Invoice Number]\"\n\t.Column.FirstClickDirection = \"A\"\nend with\nwith tmpl.field_info[2]\n\t.Fieldname = \"Sold to Customer\"\n\t.Scope = \"Local\"\n\t.DisplayFormat = \"\"\n\t.DisplayUnFormat = \"\"\n\t.ConditionalStyle = \"\"\n\t.ConditionalStyleLevel = \"Cell\"\n\t.ClientSideConditionalStyle = \"\"\n\t.ClientSideConditionalStyleLevel = \"Cell\"\n\t.QBEDisable = .f.\n\t.QBEInlineStyle = \"\"\n\t.QBEOptionsJSON = \"\"\n\t.canBeUsedInWhereClause = .t.\n\t.autoincrement = .f.\n\t.portableType = \"NationalVaryingCharacter\"\n\t.nativeType = \"nvarchar\"\n\t.Type = \"C\"\n\t.UserDefinedClientSideValidationJavascript = \"\"\n\t.onChange_ValidationOption = \"None\"\n\t.Varname = \"SOLD_TO_CUSTOMER\"\n\t.Column.LabelPosition = \"Left\"\n\t.Controltype = \"Label\"\n\t.Label.InLineStyle = \"\"\n\t.Label.ClassName = \"\"\n\t.BreakType = \"None\"\n\t.nCols = 1\n\t.Column.Hide = .f.\n\t.BaseFieldExpression = \"[Sold to Customer]\"\n\t.SourceAlias = \"\"\n\t.Column.Heading = \"Sold To Customer\"\n\t.Column.Sort = \"[Sold to Customer]\"\n\t.Column.FirstClickDirection = \"A\"\nend with\nwith tmpl.field_info[3]\n\t.Fieldname = \"Subject\"\n\t.Scope = \"Local\"\n\t.DisplayFormat = \"\"\n\t.DisplayUnFormat = \"\"\n\t.ConditionalStyle = \"\"\n\t.ConditionalStyleLevel = \"Cell\"\n\t.ClientSideConditionalStyle = \"\"\n\t.ClientSideConditionalStyleLevel = \"Cell\"\n\t.QBEDisable = .f.\n\t.QBEInlineStyle = \"\"\n\t.QBEOptionsJSON = \"\"\n\t.canBeUsedInWhereClause = .t.\n\t.autoincrement = .f.\n\t.portableType = \"NationalVaryingCharacter\"\n\t.nativeType = \"nvarchar\"\n\t.Type = \"C\"\n\t.UserDefinedClientSideValidationJavascript = \"\"\n\t.onChange_ValidationOption = \"None\"\n\t.Varname = \"SUBJECT\"\n\t.Column.LabelPosition = \"Left\"\n\t.Controltype = \"Label\"\n\t.Label.InLineStyle = \"\"\n\t.Label.ClassName = \"\"\n\t.BreakType = \"None\"\n\t.nCols = 1\n\t.Column.Hide = .f.\n\t.BaseFieldExpression = \"Subject\"\n\t.SourceAlias = \"\"\n\t.Column.Heading = \"Subject\"\n\t.Column.Sort = \"Subject\"\n\t.Column.FirstClickDirection = \"A\"\nend with\nwith tmpl.field_info[4]\n\t.Fieldname = \"Ship to Customer\"\n\t.Scope = \"Local\"\n\t.DisplayFormat = \"\"\n\t.DisplayUnFormat = \"\"\n\t.ConditionalStyle = \"\"\n\t.ConditionalStyleLevel = \"Cell\"\n\t.ClientSideConditionalStyle = \"\"\n\t.ClientSideConditionalStyleLevel = \"Cell\"\n\t.QBEDisable = .f.\n\t.QBEInlineStyle = \"\"\n\t.QBEOptionsJSON = \"\"\n\t.canBeUsedInWhereClause = .t.\n\t.autoincrement = .f.\n\t.portableType = \"NationalVaryingCharacter\"\n\t.nativeType = \"nvarchar\"\n\t.Type = \"C\"\n\t.UserDefinedClientSideValidationJavascript = \"\"\n\t.onChange_ValidationOption = \"None\"\n\t.Varname = \"SHIP_TO_CUSTOMER\"\n\t.Column.LabelPosition = \"Left\"\n\t.Controltype = \"Label\"\n\t.Label.InLineStyle = \"\"\n\t.Label.ClassName = \"\"\n\t.BreakType = \"None\"\n\t.nCols = 1\n\t.Column.Hide = .f.\n\t.BaseFieldExpression = \"[Ship to Customer]\"\n\t.SourceAlias = \"\"\n\t.Column.Heading = \"Ship To Customer\"\n\t.Column.Sort = \"[Ship to Customer]\"\n\t.Column.FirstClickDirection = \"A\"\nend with\nwith tmpl.field_info[5]\n\t.Fieldname = \"Work Order Number\"\n\t.Scope = \"Local\"\n\t.DisplayFormat = \"\"\n\t.DisplayUnFormat = \"\"\n\t.ConditionalStyle = \"\"\n\t.ConditionalStyleLevel = \"Cell\"\n\t.ClientSideConditionalStyle = \"\"\n\t.ClientSideConditionalStyleLevel = \"Cell\"\n\t.QBEDisable = .f.\n\t.QBEInlineStyle = \"\"\n\t.QBEOptionsJSON = \"\"\n\t.canBeUsedInWhereClause = .t.\n\t.autoincrement = .f.\n\t.portableType = \"NationalVaryingCharacter\"\n\t.nativeType = \"nvarchar\"\n\t.Type = \"C\"\n\t.UserDefinedClientSideValidationJavascript = \"\"\n\t.onChange_ValidationOption = \"None\"\n\t.Varname = \"WORK_ORDER_NUMBER\"\n\t.Column.LabelPosition = \"Left\"\n\t.Controltype = \"Label\"\n\t.Label.InLineStyle = \"\"\n\t.Label.ClassName = \"\"\n\t.BreakType = \"None\"\n\t.nCols = 1\n\t.Column.Hide = .f.\n\t.BaseFieldExpression = \"[Work Order Number]\"\n\t.SourceAlias = \"\"\n\t.Column.Heading = \"Work Order Number\"\n\t.Column.Sort = \"[Work Order Number]\"\n\t.Column.FirstClickDirection = \"A\"\nend with\ntmpl.RecordNavigationStyle = \"NavigationButtons\"\ntmpl.fetchMoreRecordsButton.text = \"More Records\"\ntmpl.fetchMoreRecordsButton.style = \"\"\ntmpl.RecNav.SuppressIfOnlyOnePage = .t.\ntmpl.RecNav.First_Label = \"First\"\ntmpl.RecNav.Has_First_Button = .t.\ntmpl.RecNav.Has_Last_Button = .t.\ntmpl.RecNav.Has_Next_Button = .t.\ntmpl.RecNav.Has_Prev_Button = .t.\ntmpl.RecNav.HTML_Template_source = \"Computed\"\ntmpl.RecNav.Justify = \"Left\"\ntmpl.RecNav.Last_Label = \"Last\"\ntmpl.RecNav.Next_Label = \"Next\"\ntmpl.RecNav.Number_of_page_links = 10\ntmpl.RecNav.Page_Numbering_Style = 3\ntmpl.RecNav.PagesTemplate_w_PageCount = \"{PageNumber} of {PageCount}\"\ntmpl.RecNav.PagesTemplate_wout_PageCount = \"{PageNumber}\"\ntmpl.RecNav.Position = 1\ntmpl.RecNav.suppress_recNavBar_if_no_records = .f.\ntmpl.RecNav.Prev_Label = \"Prev\"\ntmpl.RecNav.Show_disabled_controls = .t.\ntmpl.RecNav.Show_Page_Count = .t.\ntmpl.RecNav.Use_Images = .f.\ntmpl.gridToolbarTemplate = <<%html%\n%html%\ntmpl.gridToolbarTemplateEditable = <<%html%\n%html%\ntmpl.style_name = \"MobRed\"\ntmpl.resolveAbstractClassNames = .t.\ntmpl.style_type = \"Alpha Five\"\ntmpl.UseSimpleStyles = .f.\ntmpl.overrideStylesForJavascriptObjects = .f.\ntmpl.searchBehavior = \"\"\ntmpl.GUID = \"88cc8329-a8ac-4c9e-976a-47f4bb6a97c5\"\ntmpl.onlyIncludeSelectedFieldsInQuery = .t.\ntmpl.hasGroupBreaks = .f.\ntmpl.groupBreaks.expression1 = \"\"\ntmpl.groupBreaks.direction1 = \"\"\ntmpl.groupBreaks.header1 = <<%HTML%\n%HTML%\ntmpl.groupBreaks.footer1 = <<%HTML%\n%HTML%\ntmpl.groupBreaks.collapseAllGroupsOnInitialDisplay = .f.\ntmpl.timestamp = \"2019-09-05:12-55-53.929\"\ntmpl.resolveAbstractClassNamesAtDesignTime  = .f.\ntmpl.resolveAbstractIconNamesAtDesignTime = .f. \ntmpl.useLegacyDatePicker = .f.\ntmpl.javascriptUnboundActionDefinitions = <<%javascriptActions%\n%javascriptActions%\n\ntmpl.precalc.sessionVarsInShowHideExpns = <<%sessionvars%\n%sessionvars%\ntmpl.precalc.unboundActionsXbasicFunctions = \"\"\ntmpl.precalc.includeS3Javascript = .f.",
         "datasourceType": 3,
         "componentName": "Inv_Grid",
         "query_ado": {
@@ -269,7 +269,7 @@
                     "displayODFlat": "{F=Tahoma,8}{I:'a5_blue_text'}{T=.2}{C=}{DATA=Invoice Number}Invoice Number",
                     "scope": "Local",
                     "tmplTxtComputed": true,
-                    "tmplTxt": "with tmpl.field_info[_fieldNumber_]\n\t.Fieldname = \"Invoice Number\"\n\t.Scope = \"Local\"\n\t.DisplayFormat = \"\"\n\t.DisplayUnFormat = \"\"\n\t.ConditionalStyle = \"\"\n\t.ConditionalStyleLevel = \"Cell\"\n\t.ClientSideConditionalStyle = \"\"\n\t.ClientSideConditionalStyleLevel = \"Cell\"\n\t.QBEDisable = .f.\n\t.QBEInlineStyle = \"\"\n\t.QBEOptionsJSON = \"\"\n\t.canBeUsedInWhereClause = .t.\n\t.autoincrement = .f.\n\t.portableType = \"NationalVaryingCharacter\"\n\t.nativeType = \"nvarchar\"\n\t.Type = \"C\"\n\t.UserDefinedClientSideValidationJavascript = \"\"\n\t.onChange_ValidationOption = \"None\"\n\t.Varname = \"INVOICE_NUMBER\"\n\t.Column.LabelPosition = \"Left\"\n\t.Controltype = \"Label\"\n\t.Label.InLineStyle = \"\"\n\t.Label.ClassName = \"\"\n\t.BreakType = \"None\"\n\t.nCols = 1\n\t.Column.Hide = .f.\n\t.BaseFieldExpression = \"[Invoice Number]\"\n\t.SourceAlias = \"\"\n\t.Column.Heading = \"Invoice Number\"\n\t.Column.Sort = \"[Invoice Number]\"\n\t.Column.FirstClickDirection = \"A\"\nend with\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+                    "tmplTxt": "with tmpl.field_info[_fieldNumber_]\n\t.Fieldname = \"Invoice Number\"\n\t.Scope = \"Local\"\n\t.DisplayFormat = \"\"\n\t.DisplayUnFormat = \"\"\n\t.ConditionalStyle = \"\"\n\t.ConditionalStyleLevel = \"Cell\"\n\t.ClientSideConditionalStyle = \"\"\n\t.ClientSideConditionalStyleLevel = \"Cell\"\n\t.QBEDisable = .f.\n\t.QBEInlineStyle = \"\"\n\t.QBEOptionsJSON = \"\"\n\t.canBeUsedInWhereClause = .t.\n\t.autoincrement = .f.\n\t.portableType = \"NationalVaryingCharacter\"\n\t.nativeType = \"nvarchar\"\n\t.Type = \"C\"\n\t.UserDefinedClientSideValidationJavascript = \"\"\n\t.onChange_ValidationOption = \"None\"\n\t.Varname = \"INVOICE_NUMBER\"\n\t.Column.LabelPosition = \"Left\"\n\t.Controltype = \"Label\"\n\t.Label.InLineStyle = \"\"\n\t.Label.ClassName = \"\"\n\t.BreakType = \"None\"\n\t.nCols = 1\n\t.Column.Hide = .f.\n\t.BaseFieldExpression = \"[Invoice Number]\"\n\t.SourceAlias = \"\"\n\t.Column.Heading = \"Invoice Number\"\n\t.Column.Sort = \"[Invoice Number]\"\n\t.Column.FirstClickDirection = \"A\"\nend with\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
                     "columnQBEOptionsJSON": ""
                 },
                 {
@@ -337,11 +337,11 @@
                         "HighYear": 2050
                     },
                     "TextBox": {
-                        "className": "",
                         "Size": 20,
-                        "readonly": false,
                         "MaxLength": 20,
-                        "stylefieldiferror": true
+                        "stylefieldiferror": true,
+                        "className": "",
+                        "readonly": false
                     },
                     "Watermark": {
                         "text": "<FieldLabel>"
@@ -358,9 +358,9 @@
                                 "width": "2in"
                             },
                             "style": "font: 9pt Arial;",
+                            "editButtonText": "Edit...",
                             "toolbaricons": "",
-                            "toolbardefinition": "",
-                            "editButtonText": "Edit..."
+                            "toolbardefinition": ""
                         }
                     },
                     "radiobutton": {
@@ -399,12 +399,6 @@
                         "OpenMethod": "ClickIcon",
                         "UseComboBoxes": true,
                         "DateFormat": "<DefaultTimeFormat>",
-                        "friendlyDisplay": {
-                            "settingsJSON": "",
-                            "enabled": false
-                        },
-                        "showPreDefinedDates": false,
-                        "preDefinedDatesJSON": "",
                         "LowYear": 1950,
                         "HighYear": 2050,
                         "SwitchYear": 20,
@@ -412,7 +406,13 @@
                         "showDaysOfWeek": true,
                         "showTodayButton": true,
                         "OKButtonLabel": "OK",
-                        "CancelButtonLabel": "Cancel"
+                        "CancelButtonLabel": "Cancel",
+                        "friendlyDisplay": {
+                            "settingsJSON": "",
+                            "enabled": false
+                        },
+                        "showPreDefinedDates": false,
+                        "preDefinedDatesJSON": ""
                     },
                     "column": {
                         "heading": "Sold To Customer",
@@ -424,7 +424,6 @@
                     "initial_value": "NULL",
                     "BreakType": "None",
                     "nCols": 1,
-                    "columnQBEOptionsJSON": "",
                     "link": {
                         "StaticImageInlineStyle": "border-style: none;",
                         "DisplayType": "Value in Field",
@@ -486,7 +485,8 @@
                     "displayODFlat": "{F=Tahoma,8}{I:'a5_blue_text'}{T=.2}{C=}{DATA=Sold to Customer}Sold to Customer",
                     "scope": "Local",
                     "tmplTxtComputed": true,
-                    "tmplTxt": "with tmpl.field_info[_fieldNumber_]\n\t.Fieldname = \"Sold to Customer\"\n\t.Scope = \"Local\"\n\t.DisplayFormat = \"\"\n\t.DisplayUnFormat = \"\"\n\t.ConditionalStyle = \"\"\n\t.ConditionalStyleLevel = \"Cell\"\n\t.ClientSideConditionalStyle = \"\"\n\t.ClientSideConditionalStyleLevel = \"Cell\"\n\t.QBEDisable = .f.\n\t.QBEInlineStyle = \"\"\n\t.QBEOptionsJSON = \"\"\n\t.canBeUsedInWhereClause = .t.\n\t.autoincrement = .f.\n\t.portableType = \"NationalVaryingCharacter\"\n\t.nativeType = \"nvarchar\"\n\t.Type = \"C\"\n\t.UserDefinedClientSideValidationJavascript = \"\"\n\t.onChange_ValidationOption = \"None\"\n\t.Varname = \"SOLD_TO_CUSTOMER\"\n\t.Column.LabelPosition = \"Left\"\n\t.Controltype = \"Label\"\n\t.Label.InLineStyle = \"\"\n\t.Label.ClassName = \"\"\n\t.BreakType = \"None\"\n\t.nCols = 1\n\t.Column.Hide = .f.\n\t.BaseFieldExpression = \"[Sold to Customer]\"\n\t.SourceAlias = \"\"\n\t.Column.Heading = \"Sold To Customer\"\n\t.Column.Sort = \"[Sold to Customer]\"\n\t.Column.FirstClickDirection = \"A\"\nend with\n\n\n\n\n\n\n\n\n\n"
+                    "tmplTxt": "with tmpl.field_info[_fieldNumber_]\n\t.Fieldname = \"Sold to Customer\"\n\t.Scope = \"Local\"\n\t.DisplayFormat = \"\"\n\t.DisplayUnFormat = \"\"\n\t.ConditionalStyle = \"\"\n\t.ConditionalStyleLevel = \"Cell\"\n\t.ClientSideConditionalStyle = \"\"\n\t.ClientSideConditionalStyleLevel = \"Cell\"\n\t.QBEDisable = .f.\n\t.QBEInlineStyle = \"\"\n\t.QBEOptionsJSON = \"\"\n\t.canBeUsedInWhereClause = .t.\n\t.autoincrement = .f.\n\t.portableType = \"NationalVaryingCharacter\"\n\t.nativeType = \"nvarchar\"\n\t.Type = \"C\"\n\t.UserDefinedClientSideValidationJavascript = \"\"\n\t.onChange_ValidationOption = \"None\"\n\t.Varname = \"SOLD_TO_CUSTOMER\"\n\t.Column.LabelPosition = \"Left\"\n\t.Controltype = \"Label\"\n\t.Label.InLineStyle = \"\"\n\t.Label.ClassName = \"\"\n\t.BreakType = \"None\"\n\t.nCols = 1\n\t.Column.Hide = .f.\n\t.BaseFieldExpression = \"[Sold to Customer]\"\n\t.SourceAlias = \"\"\n\t.Column.Heading = \"Sold To Customer\"\n\t.Column.Sort = \"[Sold to Customer]\"\n\t.Column.FirstClickDirection = \"A\"\nend with\n\n\n\n\n\n\n\n\n\n\n",
+                    "columnQBEOptionsJSON": ""
                 },
                 {
                     "fieldname": "Subject",
@@ -701,7 +701,7 @@
                     "displayODFlat": "{F=Tahoma,8}{I:'a5_blue_text'}{T=.2}{C=}{DATA=Subject}Subject",
                     "scope": "Local",
                     "tmplTxtComputed": true,
-                    "tmplTxt": "with tmpl.field_info[_fieldNumber_]\n\t.Fieldname = \"Subject\"\n\t.Scope = \"Local\"\n\t.DisplayFormat = \"\"\n\t.DisplayUnFormat = \"\"\n\t.ConditionalStyle = \"\"\n\t.ConditionalStyleLevel = \"Cell\"\n\t.ClientSideConditionalStyle = \"\"\n\t.ClientSideConditionalStyleLevel = \"Cell\"\n\t.QBEDisable = .f.\n\t.QBEInlineStyle = \"\"\n\t.QBEOptionsJSON = \"\"\n\t.canBeUsedInWhereClause = .t.\n\t.autoincrement = .f.\n\t.portableType = \"NationalVaryingCharacter\"\n\t.nativeType = \"nvarchar\"\n\t.Type = \"C\"\n\t.UserDefinedClientSideValidationJavascript = \"\"\n\t.onChange_ValidationOption = \"None\"\n\t.Varname = \"SUBJECT\"\n\t.Column.LabelPosition = \"Left\"\n\t.Controltype = \"Label\"\n\t.Label.InLineStyle = \"\"\n\t.Label.ClassName = \"\"\n\t.BreakType = \"None\"\n\t.nCols = 1\n\t.Column.Hide = .f.\n\t.BaseFieldExpression = \"Subject\"\n\t.SourceAlias = \"\"\n\t.Column.Heading = \"Subject\"\n\t.Column.Sort = \"Subject\"\n\t.Column.FirstClickDirection = \"A\"\nend with\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+                    "tmplTxt": "with tmpl.field_info[_fieldNumber_]\n\t.Fieldname = \"Subject\"\n\t.Scope = \"Local\"\n\t.DisplayFormat = \"\"\n\t.DisplayUnFormat = \"\"\n\t.ConditionalStyle = \"\"\n\t.ConditionalStyleLevel = \"Cell\"\n\t.ClientSideConditionalStyle = \"\"\n\t.ClientSideConditionalStyleLevel = \"Cell\"\n\t.QBEDisable = .f.\n\t.QBEInlineStyle = \"\"\n\t.QBEOptionsJSON = \"\"\n\t.canBeUsedInWhereClause = .t.\n\t.autoincrement = .f.\n\t.portableType = \"NationalVaryingCharacter\"\n\t.nativeType = \"nvarchar\"\n\t.Type = \"C\"\n\t.UserDefinedClientSideValidationJavascript = \"\"\n\t.onChange_ValidationOption = \"None\"\n\t.Varname = \"SUBJECT\"\n\t.Column.LabelPosition = \"Left\"\n\t.Controltype = \"Label\"\n\t.Label.InLineStyle = \"\"\n\t.Label.ClassName = \"\"\n\t.BreakType = \"None\"\n\t.nCols = 1\n\t.Column.Hide = .f.\n\t.BaseFieldExpression = \"Subject\"\n\t.SourceAlias = \"\"\n\t.Column.Heading = \"Subject\"\n\t.Column.Sort = \"Subject\"\n\t.Column.FirstClickDirection = \"A\"\nend with\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
                     "columnQBEOptionsJSON": ""
                 },
                 {
@@ -917,7 +917,7 @@
                     "displayODFlat": "{F=Tahoma,8}{I:'a5_blue_text'}{T=.2}{C=}{DATA=Ship to Customer}Ship to Customer",
                     "scope": "Local",
                     "tmplTxtComputed": true,
-                    "tmplTxt": "with tmpl.field_info[_fieldNumber_]\n\t.Fieldname = \"Ship to Customer\"\n\t.Scope = \"Local\"\n\t.DisplayFormat = \"\"\n\t.DisplayUnFormat = \"\"\n\t.ConditionalStyle = \"\"\n\t.ConditionalStyleLevel = \"Cell\"\n\t.ClientSideConditionalStyle = \"\"\n\t.ClientSideConditionalStyleLevel = \"Cell\"\n\t.QBEDisable = .f.\n\t.QBEInlineStyle = \"\"\n\t.QBEOptionsJSON = \"\"\n\t.canBeUsedInWhereClause = .t.\n\t.autoincrement = .f.\n\t.portableType = \"NationalVaryingCharacter\"\n\t.nativeType = \"nvarchar\"\n\t.Type = \"C\"\n\t.UserDefinedClientSideValidationJavascript = \"\"\n\t.onChange_ValidationOption = \"None\"\n\t.Varname = \"SHIP_TO_CUSTOMER\"\n\t.Column.LabelPosition = \"Left\"\n\t.Controltype = \"Label\"\n\t.Label.InLineStyle = \"\"\n\t.Label.ClassName = \"\"\n\t.BreakType = \"None\"\n\t.nCols = 1\n\t.Column.Hide = .f.\n\t.BaseFieldExpression = \"[Ship to Customer]\"\n\t.SourceAlias = \"\"\n\t.Column.Heading = \"Ship To Customer\"\n\t.Column.Sort = \"[Ship to Customer]\"\n\t.Column.FirstClickDirection = \"A\"\nend with\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+                    "tmplTxt": "with tmpl.field_info[_fieldNumber_]\n\t.Fieldname = \"Ship to Customer\"\n\t.Scope = \"Local\"\n\t.DisplayFormat = \"\"\n\t.DisplayUnFormat = \"\"\n\t.ConditionalStyle = \"\"\n\t.ConditionalStyleLevel = \"Cell\"\n\t.ClientSideConditionalStyle = \"\"\n\t.ClientSideConditionalStyleLevel = \"Cell\"\n\t.QBEDisable = .f.\n\t.QBEInlineStyle = \"\"\n\t.QBEOptionsJSON = \"\"\n\t.canBeUsedInWhereClause = .t.\n\t.autoincrement = .f.\n\t.portableType = \"NationalVaryingCharacter\"\n\t.nativeType = \"nvarchar\"\n\t.Type = \"C\"\n\t.UserDefinedClientSideValidationJavascript = \"\"\n\t.onChange_ValidationOption = \"None\"\n\t.Varname = \"SHIP_TO_CUSTOMER\"\n\t.Column.LabelPosition = \"Left\"\n\t.Controltype = \"Label\"\n\t.Label.InLineStyle = \"\"\n\t.Label.ClassName = \"\"\n\t.BreakType = \"None\"\n\t.nCols = 1\n\t.Column.Hide = .f.\n\t.BaseFieldExpression = \"[Ship to Customer]\"\n\t.SourceAlias = \"\"\n\t.Column.Heading = \"Ship To Customer\"\n\t.Column.Sort = \"[Ship to Customer]\"\n\t.Column.FirstClickDirection = \"A\"\nend with\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
                     "columnQBEOptionsJSON": ""
                 },
                 {
@@ -1131,7 +1131,7 @@
                     "displayODFlat": "{F=Tahoma,8}{I:'a5_blue_text'}{T=.2}{C=}{DATA=Work Order Number}Work Order Number",
                     "scope": "Local",
                     "tmplTxtComputed": true,
-                    "tmplTxt": "with tmpl.field_info[_fieldNumber_]\n\t.Fieldname = \"Work Order Number\"\n\t.Scope = \"Local\"\n\t.DisplayFormat = \"\"\n\t.DisplayUnFormat = \"\"\n\t.ConditionalStyle = \"\"\n\t.ConditionalStyleLevel = \"Cell\"\n\t.ClientSideConditionalStyle = \"\"\n\t.ClientSideConditionalStyleLevel = \"Cell\"\n\t.QBEDisable = .f.\n\t.QBEInlineStyle = \"\"\n\t.QBEOptionsJSON = \"\"\n\t.canBeUsedInWhereClause = .t.\n\t.autoincrement = .f.\n\t.portableType = \"NationalVaryingCharacter\"\n\t.nativeType = \"nvarchar\"\n\t.Type = \"C\"\n\t.UserDefinedClientSideValidationJavascript = \"\"\n\t.onChange_ValidationOption = \"None\"\n\t.Varname = \"WORK_ORDER_NUMBER\"\n\t.Column.LabelPosition = \"Left\"\n\t.Controltype = \"Label\"\n\t.Label.InLineStyle = \"\"\n\t.Label.ClassName = \"\"\n\t.BreakType = \"None\"\n\t.nCols = 1\n\t.Column.Hide = .f.\n\t.BaseFieldExpression = \"[Work Order Number]\"\n\t.SourceAlias = \"\"\n\t.Column.Heading = \"Work Order Number\"\n\t.Column.Sort = \"[Work Order Number]\"\n\t.Column.FirstClickDirection = \"A\"\nend with\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+                    "tmplTxt": "with tmpl.field_info[_fieldNumber_]\n\t.Fieldname = \"Work Order Number\"\n\t.Scope = \"Local\"\n\t.DisplayFormat = \"\"\n\t.DisplayUnFormat = \"\"\n\t.ConditionalStyle = \"\"\n\t.ConditionalStyleLevel = \"Cell\"\n\t.ClientSideConditionalStyle = \"\"\n\t.ClientSideConditionalStyleLevel = \"Cell\"\n\t.QBEDisable = .f.\n\t.QBEInlineStyle = \"\"\n\t.QBEOptionsJSON = \"\"\n\t.canBeUsedInWhereClause = .t.\n\t.autoincrement = .f.\n\t.portableType = \"NationalVaryingCharacter\"\n\t.nativeType = \"nvarchar\"\n\t.Type = \"C\"\n\t.UserDefinedClientSideValidationJavascript = \"\"\n\t.onChange_ValidationOption = \"None\"\n\t.Varname = \"WORK_ORDER_NUMBER\"\n\t.Column.LabelPosition = \"Left\"\n\t.Controltype = \"Label\"\n\t.Label.InLineStyle = \"\"\n\t.Label.ClassName = \"\"\n\t.BreakType = \"None\"\n\t.nCols = 1\n\t.Column.Hide = .f.\n\t.BaseFieldExpression = \"[Work Order Number]\"\n\t.SourceAlias = \"\"\n\t.Column.Heading = \"Work Order Number\"\n\t.Column.Sort = \"[Work Order Number]\"\n\t.Column.FirstClickDirection = \"A\"\nend with\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
                     "columnQBEOptionsJSON": ""
                 }
             ]
@@ -1289,10 +1289,178 @@
         "searchFields": {
             "a_fields": [
                 {
+                    "controltype": "TextBox",
+                    "Label": {
+                        "className": ""
+                    },
+                    "Image": {
+                        "noImageFoundImage": "<None>",
+                        "newRecordImage": "<None>"
+                    },
+                    "TextBox": {
+                        "Size": 40,
+                        "MaxLength": 200,
+                        "stylefieldiferror": true,
+                        "className": "",
+                        "readonly": false
+                    },
+                    "TextArea": {
+                        "rows": 2,
+                        "cols": 20,
+                        "RichText": {
+                            "display": {
+                                "height": "1in",
+                                "width": "2in"
+                            },
+                            "style": "font: 9pt Arial;",
+                            "editButtonText": "Edit...",
+                            "css": "",
+                            "toolbaricons": "",
+                            "toolbardefinition": ""
+                        }
+                    },
+                    "radiobutton": {
+                        "datasource": "DBF-Table",
+                        "NotInListRule": "Add To List if Not Null",
+                        "orientation": "Horizontal",
+                        "stylefieldiferror": true,
+                        "type": "Static",
+                        "columnFlow": "LRTB",
+                        "columnCount": 3,
+                        "rowCount": 3
+                    },
+                    "CheckBox": {
+                        "type": "Static",
+                        "datasource": "DBF-Table",
+                        "stylefieldiferror": true,
+                        "NotInListRule": "Add To List if Not Null",
+                        "orientation": "Horizontal",
+                        "initial_value": "False",
+                        "columnFlow": "LRTB",
+                        "columnCount": 3,
+                        "rowCount": 3
+                    },
+                    "connection_type": "Access Database",
+                    "dropdownbox": {
+                        "Size": 1,
+                        "type": "Static",
+                        "selectStyle": "Single",
+                        "datasource": "DBF-Table",
+                        "dbf": {
+                            "displayValueFieldType": ""
+                        },
+                        "stylefieldiferror": true,
+                        "NotInListRule": "Add To List if Not Null",
+                        "fieldNameOfFieldLinkedToParentControl": "<Auto>",
+                        "methodForComputingCascadingFilter": "<Auto>"
+                    },
+                    "DatePicker": {
+                        "UseComboBoxes": true,
+                        "DateFormat": "<DefaultTimeFormat>",
+                        "LowYear": 1950,
+                        "HighYear": 2050,
+                        "SwitchYear": 20,
+                        "IconNumber": 2,
+                        "OpenMethod": "ClickIcon",
+                        "showDaysOfWeek": true,
+                        "OKButtonLabel": "OK",
+                        "CancelButtonLabel": "Cancel",
+                        "friendlyDisplay": {
+                            "settingsJSON": "",
+                            "enabled": false
+                        },
+                        "showPreDefinedDates": false,
+                        "preDefinedDatesJSON": "",
+                        "showTodayButton": true
+                    },
+                    "column": {
+                        "heading": "Sold To Customer",
+                        "sort": "Sold To Customer",
+                        "LabelPosition": "Left",
+                        "canSort": true,
+                        "firstclickdirection": "Ascending"
+                    },
+                    "initial_value": "NULL",
+                    "link": {
+                        "StaticImageInlineStyle": "border-style: none;",
+                        "ajaxWindowType": "Modal-Popup",
+                        "ajaxWindowTitle": "Window",
+                        "ajaxWindowHeight": "3in",
+                        "ajaxWindowWidth": "4in",
+                        "ajaxWindowisResizable": true,
+                        "ajaxWindowWorkingMessage": "Working...",
+                        "ajaxWindowWorkingMessageIcon": "css/A5System/Images/wait.gif",
+                        "ajaxWindowRefreshGridOnClose": "None",
+                        "targetDIVHideHyperlink": "Close",
+                        "DisplayValue": "",
+                        "TargetWindow": "",
+                        "TargetPage": ""
+                    },
+                    "type": "C",
+                    "display": "Sold to Customer",
+                    "TableAlias": "Invoice",
+                    "updateable": true,
+                    "table": "Invoice",
+                    "FieldToUpdate": "Sold to Customer",
+                    "varname": "Sold_to_Customer",
                     "fieldname": "Sold to Customer",
+                    "BreakType": "None",
+                    "DisplayOD": "{F=Tahoma,8}{I:'$a5_control_field'}{T=.2}{C=}{DATA=Sold to Customer}Sold to Customer",
+                    "DisplayODFlat": "{F=Tahoma,8}{I:'$a5_control_field'}{T=.2}{C=}{DATA=Sold to Customer}Sold to Customer",
+                    "displayODtree": "{F=Tahoma,8}{I:'$a5_control_field'} {C=}{DATA=Sold to Customer}Sold to Customer",
+                    "Search": {
+                        "FromLabel": "From:",
+                        "ToLabel": "To:"
+                    },
+                    "scope": "Local",
+                    "conditionalStyleLevel": "Cell",
+                    "clientSideconditionalStyleLevel": "Cell",
+                    "Watermark": {
+                        "text": "<FieldLabel>"
+                    },
+                    "lookup": {
+                        "type": "Edit-Combo List"
+                    },
+                    "nCols": 1,
+                    "BaseFieldExpression": "[Sold to Customer]",
+                    "summary": {
+                        "total": {
+                            "inlinestyle": "text-align: right;"
+                        },
+                        "count": {
+                            "inlinestyle": "text-align: right;"
+                        },
+                        "average": {
+                            "inlinestyle": "text-align: right;"
+                        },
+                        "min": {
+                            "inlinestyle": "text-align: right;"
+                        },
+                        "max": {
+                            "inlinestyle": "text-align: right;"
+                        },
+                        "StdDev": {
+                            "inlinestyle": "text-align: right;"
+                        },
+                        "Var": {
+                            "inlinestyle": "text-align: right;"
+                        },
+                        "First": {
+                            "inlinestyle": "text-align: right;"
+                        },
+                        "Last": {
+                            "inlinestyle": "text-align: right;"
+                        }
+                    },
+                    "tmplTxtComputed": true,
+                    "tmplTxt": "with tmpl.searchfield_info[_fieldNumber_]\n\t.Fieldname = \"Sold to Customer\"\n\t.SearchExpression = \"[Sold to Customer]\"\n\t.Initial_Value = \"NULL\"\n\t.Search_Style = 0\n\t.KeywordSearch = .f.\n\t.Scope = \"Local\"\n\t.ConditionalStyle = \"\"\n\t.ConditionalStyleLevel = \"Cell\"\n\t.ClientSideConditionalStyle = \"\"\n\t.ClientSideConditionalStyleLevel = \"Cell\"\n\t.QBEDisable = .f.\n\t.QBEInlineStyle = \"\"\n\t.QBEOptionsJSON = \"\"\n\t.canBeUsedInWhereClause = .t.\n\t.autoincrement = .f.\n\t.portableType = \"NationalVaryingCharacter\"\n\t.nativeType = \"nvarchar\"\n\t.Type = \"C\"\n\t.UserDefinedClientSideValidationJavascript = \"\"\n\t.onChange_ValidationOption = \"None\"\n\t.Varname = \"SOLD_TO_CUSTOMER\"\n\t.Column.LabelPosition = \"Left\"\n\t.Controltype = \"TextBox\"\n\t.Textbox.Size = 40\n\t.Textbox.HTML5Type = \"\"\n\t.Textbox.customAttributes = \"\"\n\t.Textbox.readonly = .f.\n\t.Textbox.MaxLength = 200\n\t.Textbox.InLineStyle = \"\"\n\t.Textbox.className = \"\"\n\t.Textbox.ContainerInlineStyle = \"\"\n\t.Textbox.IsPassword = .f.\n\t.hasWatermark= .f.\n\t.BreakType = \"None\"\n\t.nCols = 1\n\t.Column.Hide = .f.\n\t.BaseFieldExpression = \"[Sold to Customer]\"\n\t.SourceAlias = \"\"\n\t.Column.Heading = \"Sold To Customer\"\nend with\n\n\n\n\n",
+                    "canBeUsedInWhereClause": true,
+                    "NativeType": "nvarchar",
+                    "PortableType": "NationalVaryingCharacter",
+                    "onChange_ValidationOption": "None",
+                    "repeatingSectionParentId": -1,
                     "showHelpIcon": "None",
                     "helpIconBehavior": "ShowHelpOnClick",
-                    "onChange_ValidationOption": "None",
                     "Layout": {
                         "Title": "Tab label",
                         "TabPane": {
@@ -1333,18 +1501,6 @@
                         },
                         "nCols": 1
                     },
-                    "controltype": "TextBox",
-                    "Search": {
-                        "FromLabel": "From:",
-                        "ToLabel": "To:"
-                    },
-                    "Label": {
-                        "className": ""
-                    },
-                    "Image": {
-                        "noImageFoundImage": "<None>",
-                        "newRecordImage": "<None>"
-                    },
                     "calendar": {
                         "DateFormat": "mm/dd/yy",
                         "SwitchYear": 20,
@@ -1352,167 +1508,11 @@
                         "LowYear": 1950,
                         "HighYear": 2050
                     },
-                    "TextBox": {
-                        "className": "",
-                        "Size": 40,
-                        "readonly": false,
-                        "MaxLength": 200,
-                        "stylefieldiferror": true
-                    },
-                    "Watermark": {
-                        "text": "<FieldLabel>"
-                    },
                     "clientSideFormat": {
                         "type": "Mask"
                     },
-                    "Lookup": {
-                        "Type": "Edit-Combo List"
-                    },
-                    "TextArea": {
-                        "rows": 2,
-                        "cols": 20,
-                        "RichText": {
-                            "display": {
-                                "height": "1in",
-                                "width": "2in"
-                            },
-                            "style": "font: 9pt Arial;",
-                            "css": "",
-                            "toolbaricons": "",
-                            "toolbardefinition": "",
-                            "editButtonText": "Edit..."
-                        }
-                    },
-                    "radiobutton": {
-                        "datasource": "DBF-Table",
-                        "NotInListRule": "Add To List if Not Null",
-                        "orientation": "Horizontal",
-                        "columnFlow": "LRTB",
-                        "columnCount": 3,
-                        "rowCount": 3,
-                        "stylefieldiferror": true,
-                        "type": "Static"
-                    },
-                    "CheckBox": {
-                        "type": "Static",
-                        "datasource": "DBF-Table",
-                        "stylefieldiferror": true,
-                        "NotInListRule": "Add To List if Not Null",
-                        "orientation": "Horizontal",
-                        "columnFlow": "LRTB",
-                        "columnCount": 3,
-                        "rowCount": 3,
-                        "initial_value": "False"
-                    },
-                    "connection_type": "Access Database",
-                    "dropdownbox": {
-                        "Size": 1,
-                        "type": "Static",
-                        "selectStyle": "Single",
-                        "datasource": "DBF-Table",
-                        "dbf": {
-                            "displayValueFieldType": ""
-                        },
-                        "stylefieldiferror": true,
-                        "NotInListRule": "Add To List if Not Null",
-                        "fieldNameOfFieldLinkedToParentControl": "<Auto>",
-                        "methodForComputingCascadingFilter": "<Auto>"
-                    },
-                    "DatePicker": {
-                        "OpenMethod": "ClickIcon",
-                        "UseComboBoxes": true,
-                        "DateFormat": "<DefaultTimeFormat>",
-                        "friendlyDisplay": {
-                            "settingsJSON": "",
-                            "enabled": false
-                        },
-                        "showPreDefinedDates": false,
-                        "preDefinedDatesJSON": "",
-                        "LowYear": 1950,
-                        "HighYear": 2050,
-                        "SwitchYear": 20,
-                        "IconNumber": 2,
-                        "showDaysOfWeek": true,
-                        "showTodayButton": true,
-                        "OKButtonLabel": "OK",
-                        "CancelButtonLabel": "Cancel"
-                    },
-                    "column": {
-                        "heading": "Sold To Customer",
-                        "LabelPosition": "Left",
-                        "CanSort": true,
-                        "sort": "Sold To Customer",
-                        "firstclickdirection": "Ascending"
-                    },
-                    "initial_value": "NULL",
-                    "BreakType": "None",
-                    "nCols": 1,
-                    "columnQBEOptionsJSON": "",
-                    "link": {
-                        "StaticImageInlineStyle": "border-style: none;",
-                        "ajaxWindowType": "Modal-Popup",
-                        "ajaxWindowTitle": "Window",
-                        "ajaxWindowHeight": "3in",
-                        "ajaxWindowWidth": "4in",
-                        "ajaxWindowisResizable": true,
-                        "ajaxWindowWorkingMessage": "Working...",
-                        "ajaxWindowWorkingMessageIcon": "css/A5System/Images/wait.gif",
-                        "ajaxWindowRefreshGridOnClose": "None",
-                        "targetDIVHideHyperlink": "Close",
-                        "DisplayValue": "",
-                        "TargetWindow": "",
-                        "TargetPage": ""
-                    },
-                    "BaseFieldExpression": "[Sold to Customer]",
-                    "type": "C",
-                    "ConditionalStyleLevel": "Cell",
-                    "ClientSideConditionalStyleLevel": "Cell",
-                    "Updateable": true,
-                    "TableAlias": "Invoice",
-                    "canBeUsedInWhereClause": true,
-                    "nativeType": "nvarchar",
-                    "table": "Invoice",
-                    "FieldToUpdate": "Sold to Customer",
-                    "summary": {
-                        "total": {
-                            "inlinestyle": "text-align: right;"
-                        },
-                        "count": {
-                            "inlinestyle": "text-align: right;"
-                        },
-                        "average": {
-                            "inlinestyle": "text-align: right;"
-                        },
-                        "min": {
-                            "inlinestyle": "text-align: right;"
-                        },
-                        "max": {
-                            "inlinestyle": "text-align: right;"
-                        },
-                        "StdDev": {
-                            "inlinestyle": "text-align: right;"
-                        },
-                        "Var": {
-                            "inlinestyle": "text-align: right;"
-                        },
-                        "First": {
-                            "inlinestyle": "text-align: right;"
-                        },
-                        "Last": {
-                            "inlinestyle": "text-align: right;"
-                        }
-                    },
-                    "PortableType": "NationalVaryingCharacter",
-                    "varname": "Sold_to_Customer",
-                    "Display": "Sold to Customer",
-                    "displayOD": "{F=Tahoma,8}{I:'$a5_control_field'}{T=.2}{C=}{DATA=Sold to Customer}Sold to Customer",
-                    "displayODFlat": "{F=Tahoma,8}{I:'$a5_control_field'}{T=.2}{C=}{DATA=Sold to Customer}Sold to Customer",
-                    "scope": "Local",
-                    "tmplTxtComputed": true,
-                    "tmplTxt": "with tmpl.searchfield_info[_fieldNumber_]\n\t.Fieldname = \"Sold to Customer\"\n\t.SearchExpression = \"[Sold to Customer]\"\n\t.Initial_Value = \"NULL\"\n\t.Search_Style = 0\n\t.KeywordSearch = .f.\n\t.Scope = \"Local\"\n\t.ConditionalStyle = \"\"\n\t.ConditionalStyleLevel = \"Cell\"\n\t.ClientSideConditionalStyle = \"\"\n\t.ClientSideConditionalStyleLevel = \"Cell\"\n\t.QBEDisable = .f.\n\t.QBEInlineStyle = \"\"\n\t.QBEOptionsJSON = \"\"\n\t.canBeUsedInWhereClause = .t.\n\t.autoincrement = .f.\n\t.portableType = \"NationalVaryingCharacter\"\n\t.nativeType = \"nvarchar\"\n\t.Type = \"C\"\n\t.UserDefinedClientSideValidationJavascript = \"\"\n\t.onChange_ValidationOption = \"None\"\n\t.Varname = \"SOLD_TO_CUSTOMER\"\n\t.Column.LabelPosition = \"Left\"\n\t.Controltype = \"TextBox\"\n\t.Textbox.Size = 40\n\t.Textbox.HTML5Type = \"\"\n\t.Textbox.customAttributes = \"\"\n\t.Textbox.readonly = .f.\n\t.Textbox.MaxLength = 200\n\t.Textbox.InLineStyle = \"\"\n\t.Textbox.className = \"\"\n\t.Textbox.ContainerInlineStyle = \"\"\n\t.Textbox.IsPassword = .f.\n\t.hasWatermark= .f.\n\t.BreakType = \"None\"\n\t.nCols = 1\n\t.Column.Hide = .f.\n\t.BaseFieldExpression = \"[Sold to Customer]\"\n\t.SourceAlias = \"\"\n\t.Column.Heading = \"Sold To Customer\"\nend with\n\n\n\n\n",
                     "SearchExpression": "[Sold to Customer]",
-                    "displayODtree": "{F=Tahoma,8}{I:'$a5_control_field'} {C=}{DATA=Sold to Customer}Sold to Customer",
-                    "repeatingSectionParentId": -1,
+                    "columnQBEOptionsJSON": "",
                     "flagWindowContainer": false,
                     "javascriptOnShow": ""
                 }
@@ -1531,7 +1531,7 @@
         "PreCalcMode": "Standard",
         "FontSize": "Medium",
         "show_title": true,
-        "title": "<strong><font size=\"6\">Invoices </font> </strong>",
+        "title": "<strong><font size=\"2\">Invoices </font> </strong>",
         "style_type": "Alpha Five",
         "useCompactTheme": true,
         "showPulseEffect": true,
@@ -1784,11 +1784,11 @@
         "info": {
             "createdBy": "Addy",
             "LastUpdatedBy": "Addy",
-            "DateUpdated": "28-08-2019 05:06:56 80 pm",
+            "DateUpdated": "05-09-2019 12:55:53 71 pm",
             "DateCreated": "26-08-2019 07:37:36 19 pm"
         },
         "BuilderVersion": 2,
-        "current_pane_tree": "Component Type",
+        "current_pane_tree": "Grid.Properties",
         "embeddedMode": false,
         "_style_versionNumber": 2,
         "AjaxOn": true,
@@ -1804,6 +1804,6 @@
         "EXE_PATH": "C:\\Program Files (x86)\\a5V12",
         "VersionNumber": 4,
         "__wphostname": "Internet Explorer",
-        "A5SaveTimeStamp": "20190828170656924"
+        "A5SaveTimeStamp": "20190905125553836"
     }
 }

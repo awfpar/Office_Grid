@@ -9,7 +9,7 @@
         "flagTreeViewGrid": true,
         "flagTreeViewDV": true,
         "componentType": "Grid",
-        "Xbasic": "dim tmpl as p\ntmpl.ComponentName = \"Leads_Grid\"\ntmpl.ComponentType = \"Grid\"\ntmpl.AjaxOn = .t.\ntmpl.LayoutColumns = 1\ntmpl.useCompactTheme = .t.\ntmpl.showPulseEffect = .t.\ntmpl.queryEcho = .f.\ntmpl.connectToWebSocketServer = .f.\ntmpl.flagAddPKToORDER = .t.\ntmpl.saveFileType = \"Formatted JSON\"\ntmpl.captureJSErrorStackTrace = .f.\ntmpl.SecurityModel = \"Group Based\"\ntmpl.SecurityMode = \"\"\ntmpl.PreCalcMode = \"Standard\"\ntmpl.clientSideDateFormat = \"dd/MM/yyyy\"\ntmpl.publishedServerVariables = \"\"\ntmpl.datePicker.dayNames = \"Sun,Mon,Tue,Wed,Thu,Fri,Sat\"\ntmpl.datePicker.firstDayOfWeek = 1\ntmpl.datePicker.monthNames = \"January,February,March,April,May,June,July,August,September,October,November,December\"\ntmpl.datePicker.todayButtonText = \"Today\"\ntmpl.datePicker.closeButtonText = \"Close\"\ntmpl.datePicker.closeButtonText = \"Close\"\ntmpl.friendlydatesCustomizationJSON = \"\"\ntmpl.customizationString.javascriptDialogs = \"\"\ntmpl.iconMapOverrides = \"\"\ntmpl.DataSourceType = \"CS\"\ntmpl.CS.database_type = \"CS\"\ntmpl.CS.type = \"connectionstring\"\ntmpl.cs.ConnectionString  = \"::name::AnchCustomers\"\ntmpl.CS.SQL = \"SELECT [LeadID], [CUID], [LeadSource], [SaleAmt], [SaleDate] FROM [Leads]\"\nDIM tmpl.Arguments[0] AS P\nDIM tmpl.ArgumentsPage AS P\nwith tmpl.ArgumentsPage\n\t.PromptTextAbove = \"\"\nend with\ntmpl.CS.PrimaryKeyColumns = \"LeadID\"\ntmpl.CS.IdentitySequenceName  = \"\"\ntmpl.CS.primaryKeyTopAliasIsAutoIncrement  = .t.\ntmpl.grid_layout_style = 1\ntmpl.add_records_only = .f.\ntmpl.rows = 10\ntmpl.maxRowsPerPage = 200\ntmpl.rowsWhenSearchActive = -1\ntmpl.suppress_empty_rows = .t.\ntmpl.has_row_separator = .t.\ntmpl.alternate_bands = .f.\ntmpl.even_band_size = 1\ntmpl.odd_band_size = 1\ntmpl.alternate_column_bands = .f.\ntmpl.even_column_band_size = 1\ntmpl.odd_column_band_size = 1\ntmpl.conditionalStyle = \"\"\ntmpl.clientSideConditionalStyle = \"\"\ntmpl.show_title = .t.\ntmpl.title = \"<strong><font size=\\\"6\\\">Leads</font></strong>\"\ntmpl.FontSize = \"Medium\"\ntmpl.No_records_message = \"No records in query\"\ntmpl.total_records_row_position = 1\ntmpl.total_records_row = \"Records:&nbsp; {Total_Records}&nbsp;\"\ntmpl.show_column_titles = 1\ntmpl.suppress_titles_if_no_records = .f.\ntmpl.show_row_labels = .t.\ntmpl.snakingLayout_suppressRepeatedLabels = .f.\ntmpl.sort_style = 3\ntmpl.reset_page_number_when_sorting = .t.\ntmpl.allowGridBodyScrolling = .f.\ntmpl.scrollableRegionHeight = \"2in\"\ntmpl.scrollableRegionWidth = \"100%\"\ntmpl.fixedWidthColumns = .f.\ntmpl.defaultColumnWidth = \"1in\"\ntmpl.columnWidthSettings = \"\"\ntmpl.EditRegion.Grid.Top = <<%editregion%\n%editregion%\ntmpl.EditRegion.Grid.Bottom = <<%editregion%\n%editregion%\ntmpl.EditRegion.Grid.Left = <<%editregion%\n%editregion%\ntmpl.EditRegion.Grid.Right = <<%editregion%\n%editregion%\ntmpl.HasNewRecordsTitle = .f.\ntmpl.NewRecordsTitle = \"<tr><td class=\\\"[class.gridData]\\\" colspan=\\\"{a5_colspan}\\\" style=\\\"padding: 0px;\\\" >New Records</td></tr>\"\ntmpl.HasExistingRecordsTitle = .f.\ntmpl.ExistingRecordsTitle = \"<tr><td class=\\\"[class.gridData]\\\" colspan=\\\"{a5_colspan}\\\" style=\\\"padding: 0px;\\\" >Existing Records</td></tr>\"\ntmpl.Highlight_row_onHover =  .t.\ntmpl.Highlight_row_onSelect =  .t.\ntmpl.HasRecordsPerPageSelector = .t.\ntmpl.RecordsPerPageChoices =   \"1,2,5,10,25,50,75,100\"\ntmpl.RecordsPerPageSelectorTemplate = \"&nbsp;&nbsp;{Grid.RecordsPerPageSelector} Records per page\"\ntmpl.has_qbe_row = .f.\ntmpl.qbe.initial_display = \"Hidden\"\ntmpl.qbe.toggleQBERowHyperlinkText = \"Show/Hide QBE Row\"\ntmpl.has_advancedSearch = .f.\ntmpl.hasLinkedContent = .f.\ntmpl.hasExternalNavigators = .f.\ntmpl.hasRowExpandColumn = .f.\ntmpl.hasSelectedRowColumn = .t.\ntmpl.hasCheckboxSelectColumn = .f.\ntmpl.AdditionalGridStyles = \"\"\ntmpl.LocalCss = \"\"\ntmpl.CSSLinkedFiles = \"\"\ntmpl.localsvg = \"\"\ntmpl.SVGLinkedFiles = \"\"\ntmpl.CSSIcons = \"\"\ntmpl.JavaScriptLinkedFiles = \"\"\ntmpl.useMasterTemplate = .f.\ntmpl.MasterTemplateStyle = \"Table - Vertical Layout\"\ntmpl.MasterLayoutTemplate = \"\"\ntmpl.MasterLayoutTemplateJavascript = \"\"\ntmpl.MasterLayout.PaneLabel.Search = \"Search\"\ntmpl.MasterLayout.PaneLabel.Grid = \"Grid\"\ntmpl.MasterLayout.PaneLabel.DetailView = \"Detail\"\ntmpl.MasterLayout.AccordionStyle = \"Multiple\"\ntmpl.MasterLayout.InitialOpenPanes = \"Search,Grid,DetailView\"\ntmpl.verticalAlignDataInColumns = \"Middle\"\ntmpl.CanCollapseGrid = .f.\ntmpl.CollapseBar.Title = \"Collapse Grid\"\ntmpl.CollapseBar.OpenIcon = \"\"\ntmpl.CollapseBar.ClosedIcon = \"\"\ntmpl.CollapseBar.Style = \"\"\ntmpl.Collapsebar.Class = \"\"\ntmpl.Collapsebar.ContainerStyle = \"\"\ntmpl.Collapsebar.ContainerClass = \"\"\ntmpl.Collapsebar.InitialState = \"open\"\ntmpl.languageTags_RemoveUnConsumedTags = .t.\ntmpl.activeLanguage = \"<Default>\"\ntmpl.search.highlightSearchStrings = .f.\ntmpl.autoRefreshGrid = .f.\ntmpl.autoRefreshInterval = 60\ntmpl.helpTableType = \"DBF\"\ntmpl.helpTableName = \"\"\ntmpl.helpConnectionString = \"\"\ntmpl.helpIDfield = \"\"\ntmpl.helpContentsField = \"\"\ntmpl.fieldHelpWindowStyle = \"modal-resizeable\"\ntmpl.fields = 5\nDIM tmpl.field_info[tmpl.fields] as P \nwith tmpl.field_info[1]\n\t.Fieldname = \"LeadID\"\n\t.Scope = \"Local\"\n\t.DisplayFormat = \"\"\n\t.DisplayUnFormat = \"\"\n\t.ConditionalStyle = \"\"\n\t.ConditionalStyleLevel = \"Cell\"\n\t.ClientSideConditionalStyle = \"\"\n\t.ClientSideConditionalStyleLevel = \"Cell\"\n\t.QBEDisable = .f.\n\t.QBEInlineStyle = \"\"\n\t.QBEOptionsJSON = \"\"\n\t.canBeUsedInWhereClause = .t.\n\t.autoincrement = .t.\n\t.portableType = \"Integer32\"\n\t.nativeType = \"int\"\n\t.Type = \"N\"\n\t.UserDefinedClientSideValidationJavascript = \"\"\n\t.onChange_ValidationOption = \"None\"\n\t.Varname = \"LEADID\"\n\t.Column.LabelPosition = \"Left\"\n\t.Controltype = \"Label\"\n\t.Label.InLineStyle = \"text-align: right;\"\n\t.Label.ClassName = \"\"\n\t.BreakType = \"None\"\n\t.nCols = 1\n\t.Column.Hide = .f.\n\t.BaseFieldExpression = \"LeadID\"\n\t.SourceAlias = \"\"\n\t.Column.Heading = \"Lead ID\"\n\t.Column.Sort = \"LeadID\"\n\t.Column.FirstClickDirection = \"A\"\nend with\nwith tmpl.field_info[2]\n\t.Fieldname = \"CUID\"\n\t.Scope = \"Local\"\n\t.DisplayFormat = \"\"\n\t.DisplayUnFormat = \"\"\n\t.ConditionalStyle = \"\"\n\t.ConditionalStyleLevel = \"Cell\"\n\t.ClientSideConditionalStyle = \"\"\n\t.ClientSideConditionalStyleLevel = \"Cell\"\n\t.QBEDisable = .f.\n\t.QBEInlineStyle = \"\"\n\t.QBEOptionsJSON = \"\"\n\t.canBeUsedInWhereClause = .t.\n\t.autoincrement = .f.\n\t.portableType = \"Integer32\"\n\t.nativeType = \"int\"\n\t.Type = \"N\"\n\t.UserDefinedClientSideValidationJavascript = \"\"\n\t.onChange_ValidationOption = \"None\"\n\t.Varname = \"CUID\"\n\t.Column.LabelPosition = \"Left\"\n\t.Controltype = \"Label\"\n\t.Label.InLineStyle = \"text-align: right;\"\n\t.Label.ClassName = \"\"\n\t.BreakType = \"None\"\n\t.nCols = 1\n\t.Column.Hide = .f.\n\t.BaseFieldExpression = \"CUID\"\n\t.SourceAlias = \"\"\n\t.Column.Heading = \"CUID\"\n\t.Column.Sort = \"CUID\"\n\t.Column.FirstClickDirection = \"A\"\nend with\nwith tmpl.field_info[3]\n\t.Fieldname = \"LeadSource\"\n\t.Scope = \"Local\"\n\t.DisplayFormat = \"\"\n\t.DisplayUnFormat = \"\"\n\t.ConditionalStyle = \"\"\n\t.ConditionalStyleLevel = \"Cell\"\n\t.ClientSideConditionalStyle = \"\"\n\t.ClientSideConditionalStyleLevel = \"Cell\"\n\t.QBEDisable = .f.\n\t.QBEInlineStyle = \"\"\n\t.QBEOptionsJSON = \"\"\n\t.canBeUsedInWhereClause = .t.\n\t.autoincrement = .f.\n\t.portableType = \"Integer32\"\n\t.nativeType = \"int\"\n\t.Type = \"N\"\n\t.UserDefinedClientSideValidationJavascript = \"\"\n\t.onChange_ValidationOption = \"None\"\n\t.Varname = \"LEADSOURCE\"\n\t.Column.LabelPosition = \"Left\"\n\t.Controltype = \"Label\"\n\t.Label.InLineStyle = \"text-align: right;\"\n\t.Label.ClassName = \"\"\n\t.BreakType = \"None\"\n\t.nCols = 1\n\t.Column.Hide = .f.\n\t.BaseFieldExpression = \"LeadSource\"\n\t.SourceAlias = \"\"\n\t.Column.Heading = \"Lead Source\"\n\t.Column.Sort = \"LeadSource\"\n\t.Column.FirstClickDirection = \"A\"\nend with\nwith tmpl.field_info[4]\n\t.Fieldname = \"SaleAmt\"\n\t.Scope = \"Local\"\n\t.DisplayFormat = \"\"\n\t.DisplayUnFormat = \"\"\n\t.ConditionalStyle = \"\"\n\t.ConditionalStyleLevel = \"Cell\"\n\t.ClientSideConditionalStyle = \"\"\n\t.ClientSideConditionalStyleLevel = \"Cell\"\n\t.QBEDisable = .f.\n\t.QBEInlineStyle = \"\"\n\t.QBEOptionsJSON = \"\"\n\t.canBeUsedInWhereClause = .t.\n\t.autoincrement = .f.\n\t.portableType = \"Double\"\n\t.nativeType = \"float\"\n\t.Type = \"N\"\n\t.UserDefinedClientSideValidationJavascript = \"\"\n\t.onChange_ValidationOption = \"None\"\n\t.Varname = \"SALEAMT\"\n\t.Column.LabelPosition = \"Left\"\n\t.Controltype = \"Label\"\n\t.Label.InLineStyle = \"text-align: right;\"\n\t.Label.ClassName = \"\"\n\t.BreakType = \"None\"\n\t.nCols = 1\n\t.Column.Hide = .f.\n\t.BaseFieldExpression = \"SaleAmt\"\n\t.SourceAlias = \"\"\n\t.Column.Heading = \"Sale Amt\"\n\t.Column.Sort = \"SaleAmt\"\n\t.Column.FirstClickDirection = \"A\"\nend with\nwith tmpl.field_info[5]\n\t.Fieldname = \"SaleDate\"\n\t.Scope = \"Local\"\n\t.DisplayFormat = \"time(\\\"{grid.clientSideDateFormat} 0h:0m 0s am\\\",<value>)\"\n\t.DisplayUnFormat = \"\"\n\t.ConditionalStyle = \"\"\n\t.ConditionalStyleLevel = \"Cell\"\n\t.ClientSideConditionalStyle = \"\"\n\t.ClientSideConditionalStyleLevel = \"Cell\"\n\t.QBEDisable = .f.\n\t.QBEInlineStyle = \"\"\n\t.QBEOptionsJSON = \"\"\n\t.canBeUsedInWhereClause = .t.\n\t.autoincrement = .f.\n\t.portableType = \"DateTime\"\n\t.nativeType = \"datetime\"\n\t.Type = \"T\"\n\t.UserDefinedClientSideValidationJavascript = \"\"\n\t.onChange_ValidationOption = \"None\"\n\t.Varname = \"SALEDATE\"\n\t.Column.LabelPosition = \"Left\"\n\t.Controltype = \"Label\"\n\t.Label.InLineStyle = \"\"\n\t.Label.ClassName = \"\"\n\t.BreakType = \"None\"\n\t.nCols = 1\n\t.Column.Hide = .f.\n\t.BaseFieldExpression = \"SaleDate\"\n\t.SourceAlias = \"\"\n\t.Column.Heading = \"Sale Date\"\n\t.Column.Sort = \"SaleDate\"\n\t.Column.FirstClickDirection = \"A\"\nend with\ntmpl.RecordNavigationStyle = \"NavigationButtons\"\ntmpl.fetchMoreRecordsButton.text = \"More Records\"\ntmpl.fetchMoreRecordsButton.style = \"\"\ntmpl.RecNav.SuppressIfOnlyOnePage = .t.\ntmpl.RecNav.First_Label = \"First\"\ntmpl.RecNav.Has_First_Button = .t.\ntmpl.RecNav.Has_Last_Button = .t.\ntmpl.RecNav.Has_Next_Button = .t.\ntmpl.RecNav.Has_Prev_Button = .t.\ntmpl.RecNav.HTML_Template_source = \"Computed\"\ntmpl.RecNav.Justify = \"Left\"\ntmpl.RecNav.Last_Label = \"Last\"\ntmpl.RecNav.Next_Label = \"Next\"\ntmpl.RecNav.Number_of_page_links = 10\ntmpl.RecNav.Page_Numbering_Style = 3\ntmpl.RecNav.PagesTemplate_w_PageCount = \"{PageNumber} of {PageCount}\"\ntmpl.RecNav.PagesTemplate_wout_PageCount = \"{PageNumber}\"\ntmpl.RecNav.Position = 1\ntmpl.RecNav.suppress_recNavBar_if_no_records = .f.\ntmpl.RecNav.Prev_Label = \"Prev\"\ntmpl.RecNav.Show_disabled_controls = .t.\ntmpl.RecNav.Show_Page_Count = .t.\ntmpl.RecNav.Use_Images = .f.\ntmpl.gridToolbarTemplate = <<%html%\n%html%\ntmpl.gridToolbarTemplateEditable = <<%html%\n%html%\ntmpl.style_name = \"MobRed\"\ntmpl.resolveAbstractClassNames = .t.\ntmpl.style_type = \"Alpha Five\"\ntmpl.UseSimpleStyles = .f.\ntmpl.overrideStylesForJavascriptObjects = .f.\ntmpl.searchBehavior = \"\"\ntmpl.GUID = \"ac9d485d-06ba-499b-a67f-245a2f576956\"\ntmpl.onlyIncludeSelectedFieldsInQuery = .t.\ntmpl.hasGroupBreaks = .f.\ntmpl.groupBreaks.expression1 = \"\"\ntmpl.groupBreaks.direction1 = \"\"\ntmpl.groupBreaks.header1 = <<%HTML%\n%HTML%\ntmpl.groupBreaks.footer1 = <<%HTML%\n%HTML%\ntmpl.groupBreaks.collapseAllGroupsOnInitialDisplay = .f.\ntmpl.timestamp = \"2019-08-26:18-13-58.102\"\ntmpl.resolveAbstractClassNamesAtDesignTime  = .f.\ntmpl.resolveAbstractIconNamesAtDesignTime = .f. \ntmpl.useLegacyDatePicker = .f.\ntmpl.javascriptUnboundActionDefinitions = <<%javascriptActions%\n%javascriptActions%\n\ntmpl.precalc.sessionVarsInShowHideExpns = <<%sessionvars%\n%sessionvars%\ntmpl.precalc.unboundActionsXbasicFunctions = \"\"\ntmpl.precalc.includeS3Javascript = .f.",
+        "Xbasic": "dim tmpl as p\ntmpl.ComponentName = \"Leads_Grid\"\ntmpl.ComponentType = \"Grid\"\ntmpl.AjaxOn = .t.\ntmpl.LayoutColumns = 1\ntmpl.useCompactTheme = .t.\ntmpl.showPulseEffect = .t.\ntmpl.queryEcho = .f.\ntmpl.connectToWebSocketServer = .f.\ntmpl.flagAddPKToORDER = .t.\ntmpl.saveFileType = \"Formatted JSON\"\ntmpl.captureJSErrorStackTrace = .f.\ntmpl.SecurityModel = \"Group Based\"\ntmpl.SecurityMode = \"\"\ntmpl.PreCalcMode = \"Standard\"\ntmpl.clientSideDateFormat = \"dd/MM/yyyy\"\ntmpl.publishedServerVariables = \"\"\ntmpl.datePicker.dayNames = \"Sun,Mon,Tue,Wed,Thu,Fri,Sat\"\ntmpl.datePicker.firstDayOfWeek = 1\ntmpl.datePicker.monthNames = \"January,February,March,April,May,June,July,August,September,October,November,December\"\ntmpl.datePicker.todayButtonText = \"Today\"\ntmpl.datePicker.closeButtonText = \"Close\"\ntmpl.datePicker.closeButtonText = \"Close\"\ntmpl.friendlydatesCustomizationJSON = \"\"\ntmpl.customizationString.javascriptDialogs = \"\"\ntmpl.iconMapOverrides = \"\"\ntmpl.DataSourceType = \"CS\"\ntmpl.CS.database_type = \"CS\"\ntmpl.CS.type = \"connectionstring\"\ntmpl.cs.ConnectionString  = \"::name::AnchCustomers\"\ntmpl.CS.SQL = \"SELECT [LeadID], [CUID], [LeadSource], [SaleAmt], [SaleDate] FROM [Leads]\"\nDIM tmpl.Arguments[1] AS P\nwith tmpl.Arguments[1]\n\t.Name = \"\"\n\t.DataType = \"\"\n\t.Source = \"\"\n\t.SourceDisplay = \"\"\n\t.VariableScope = \"\"\n\t.VariableName = \"\"\n\t.VariableWithScope = \"\"\n\t.DefaultValue = \"\"\n\t.Prompt = .f.\n\t.PromptText = \"\"\n\t.PromptControlType = \"\"\n\t.PromptChoices = \"\"\n\t.PromptDlgTitle = \"\"\n\t.PromptTextAbove = \"\"\n\t.PreviewValue = \"\"\nend with\nDIM tmpl.ArgumentsPage AS P\nwith tmpl.ArgumentsPage\n\t.PromptTextAbove = \"\"\nend with\ntmpl.CS.PrimaryKeyColumns = \"LeadID\"\ntmpl.CS.IdentitySequenceName  = \"\"\ntmpl.CS.primaryKeyTopAliasIsAutoIncrement  = .t.\ntmpl.grid_layout_style = 1\ntmpl.add_records_only = .f.\ntmpl.rows = 10\ntmpl.maxRowsPerPage = 200\ntmpl.rowsWhenSearchActive = -1\ntmpl.suppress_empty_rows = .t.\ntmpl.has_row_separator = .t.\ntmpl.alternate_bands = .f.\ntmpl.even_band_size = 1\ntmpl.odd_band_size = 1\ntmpl.alternate_column_bands = .f.\ntmpl.even_column_band_size = 1\ntmpl.odd_column_band_size = 1\ntmpl.conditionalStyle = \"\"\ntmpl.clientSideConditionalStyle = \"\"\ntmpl.show_title = .t.\ntmpl.title = \"<strong><font size=\\\"2\\\">Leads</font></strong>\"\ntmpl.FontSize = \"Medium\"\ntmpl.No_records_message = \"No records in query\"\ntmpl.total_records_row_position = 1\ntmpl.total_records_row = \"Records:&nbsp; {Total_Records}&nbsp;\"\ntmpl.show_column_titles = 1\ntmpl.suppress_titles_if_no_records = .f.\ntmpl.show_row_labels = .t.\ntmpl.snakingLayout_suppressRepeatedLabels = .f.\ntmpl.sort_style = 3\ntmpl.reset_page_number_when_sorting = .t.\ntmpl.allowGridBodyScrolling = .f.\ntmpl.scrollableRegionHeight = \"2in\"\ntmpl.scrollableRegionWidth = \"100%\"\ntmpl.fixedWidthColumns = .f.\ntmpl.defaultColumnWidth = \"1in\"\ntmpl.columnWidthSettings = \"\"\ntmpl.EditRegion.Grid.Top = <<%editregion%\n%editregion%\ntmpl.EditRegion.Grid.Bottom = <<%editregion%\n%editregion%\ntmpl.EditRegion.Grid.Left = <<%editregion%\n%editregion%\ntmpl.EditRegion.Grid.Right = <<%editregion%\n%editregion%\ntmpl.HasNewRecordsTitle = .f.\ntmpl.NewRecordsTitle = \"<tr><td class=\\\"[class.gridData]\\\" colspan=\\\"{a5_colspan}\\\" style=\\\"padding: 0px;\\\" >New Records</td></tr>\"\ntmpl.HasExistingRecordsTitle = .f.\ntmpl.ExistingRecordsTitle = \"<tr><td class=\\\"[class.gridData]\\\" colspan=\\\"{a5_colspan}\\\" style=\\\"padding: 0px;\\\" >Existing Records</td></tr>\"\ntmpl.Highlight_row_onHover =  .t.\ntmpl.Highlight_row_onSelect =  .t.\ntmpl.HasRecordsPerPageSelector = .t.\ntmpl.RecordsPerPageChoices =   \"1,2,5,10,25,50,75,100\"\ntmpl.RecordsPerPageSelectorTemplate = \"&nbsp;&nbsp;{Grid.RecordsPerPageSelector} Records per page\"\ntmpl.has_qbe_row = .f.\ntmpl.qbe.initial_display = \"Hidden\"\ntmpl.qbe.toggleQBERowHyperlinkText = \"Show/Hide QBE Row\"\ntmpl.has_advancedSearch = .f.\ntmpl.hasLinkedContent = .f.\ntmpl.hasExternalNavigators = .f.\ntmpl.hasRowExpandColumn = .f.\ntmpl.hasSelectedRowColumn = .t.\ntmpl.hasCheckboxSelectColumn = .f.\ntmpl.AdditionalGridStyles = \"\"\ntmpl.LocalCss = \"\"\ntmpl.CSSLinkedFiles = \"\"\ntmpl.localsvg = \"\"\ntmpl.SVGLinkedFiles = \"\"\ntmpl.CSSIcons = \"\"\ntmpl.JavaScriptLinkedFiles = \"\"\ntmpl.useMasterTemplate = .f.\ntmpl.MasterTemplateStyle = \"Table - Vertical Layout\"\ntmpl.MasterLayoutTemplate = \"\"\ntmpl.MasterLayoutTemplateJavascript = \"\"\ntmpl.MasterLayout.PaneLabel.Search = \"Search\"\ntmpl.MasterLayout.PaneLabel.Grid = \"Grid\"\ntmpl.MasterLayout.PaneLabel.DetailView = \"Detail\"\ntmpl.MasterLayout.AccordionStyle = \"Multiple\"\ntmpl.MasterLayout.InitialOpenPanes = \"Search,Grid,DetailView\"\ntmpl.verticalAlignDataInColumns = \"Middle\"\ntmpl.CanCollapseGrid = .f.\ntmpl.CollapseBar.Title = \"Collapse Grid\"\ntmpl.CollapseBar.OpenIcon = \"\"\ntmpl.CollapseBar.ClosedIcon = \"\"\ntmpl.CollapseBar.Style = \"\"\ntmpl.Collapsebar.Class = \"\"\ntmpl.Collapsebar.ContainerStyle = \"\"\ntmpl.Collapsebar.ContainerClass = \"\"\ntmpl.Collapsebar.InitialState = \"open\"\ntmpl.languageTags_RemoveUnConsumedTags = .t.\ntmpl.activeLanguage = \"<Default>\"\ntmpl.search.highlightSearchStrings = .f.\ntmpl.autoRefreshGrid = .f.\ntmpl.autoRefreshInterval = 60\ntmpl.helpTableType = \"DBF\"\ntmpl.helpTableName = \"\"\ntmpl.helpConnectionString = \"\"\ntmpl.helpIDfield = \"\"\ntmpl.helpContentsField = \"\"\ntmpl.fieldHelpWindowStyle = \"modal-resizeable\"\ntmpl.fields = 5\nDIM tmpl.field_info[tmpl.fields] as P \nwith tmpl.field_info[1]\n\t.Fieldname = \"LeadID\"\n\t.Scope = \"Local\"\n\t.DisplayFormat = \"\"\n\t.DisplayUnFormat = \"\"\n\t.ConditionalStyle = \"\"\n\t.ConditionalStyleLevel = \"Cell\"\n\t.ClientSideConditionalStyle = \"\"\n\t.ClientSideConditionalStyleLevel = \"Cell\"\n\t.QBEDisable = .f.\n\t.QBEInlineStyle = \"\"\n\t.QBEOptionsJSON = \"\"\n\t.canBeUsedInWhereClause = .t.\n\t.autoincrement = .t.\n\t.portableType = \"Integer32\"\n\t.nativeType = \"int\"\n\t.Type = \"N\"\n\t.UserDefinedClientSideValidationJavascript = \"\"\n\t.onChange_ValidationOption = \"None\"\n\t.Varname = \"LEADID\"\n\t.Column.LabelPosition = \"Left\"\n\t.Controltype = \"Label\"\n\t.Label.InLineStyle = \"text-align: right;\"\n\t.Label.ClassName = \"\"\n\t.BreakType = \"None\"\n\t.nCols = 1\n\t.Column.Hide = .f.\n\t.BaseFieldExpression = \"LeadID\"\n\t.SourceAlias = \"\"\n\t.Column.Heading = \"Lead ID\"\n\t.Column.Sort = \"LeadID\"\n\t.Column.FirstClickDirection = \"A\"\nend with\nwith tmpl.field_info[2]\n\t.Fieldname = \"CUID\"\n\t.Scope = \"Local\"\n\t.DisplayFormat = \"\"\n\t.DisplayUnFormat = \"\"\n\t.ConditionalStyle = \"\"\n\t.ConditionalStyleLevel = \"Cell\"\n\t.ClientSideConditionalStyle = \"\"\n\t.ClientSideConditionalStyleLevel = \"Cell\"\n\t.QBEDisable = .f.\n\t.QBEInlineStyle = \"\"\n\t.QBEOptionsJSON = \"\"\n\t.canBeUsedInWhereClause = .t.\n\t.autoincrement = .f.\n\t.portableType = \"Integer32\"\n\t.nativeType = \"int\"\n\t.Type = \"N\"\n\t.UserDefinedClientSideValidationJavascript = \"\"\n\t.onChange_ValidationOption = \"None\"\n\t.Varname = \"CUID\"\n\t.Column.LabelPosition = \"Left\"\n\t.Controltype = \"Label\"\n\t.Label.InLineStyle = \"text-align: right;\"\n\t.Label.ClassName = \"\"\n\t.BreakType = \"None\"\n\t.nCols = 1\n\t.Column.Hide = .f.\n\t.BaseFieldExpression = \"CUID\"\n\t.SourceAlias = \"\"\n\t.Column.Heading = \"CUID\"\n\t.Column.Sort = \"CUID\"\n\t.Column.FirstClickDirection = \"A\"\nend with\nwith tmpl.field_info[3]\n\t.Fieldname = \"LeadSource\"\n\t.Scope = \"Local\"\n\t.DisplayFormat = \"\"\n\t.DisplayUnFormat = \"\"\n\t.ConditionalStyle = \"\"\n\t.ConditionalStyleLevel = \"Cell\"\n\t.ClientSideConditionalStyle = \"\"\n\t.ClientSideConditionalStyleLevel = \"Cell\"\n\t.QBEDisable = .f.\n\t.QBEInlineStyle = \"\"\n\t.QBEOptionsJSON = \"\"\n\t.canBeUsedInWhereClause = .t.\n\t.autoincrement = .f.\n\t.portableType = \"Integer32\"\n\t.nativeType = \"int\"\n\t.Type = \"N\"\n\t.UserDefinedClientSideValidationJavascript = \"\"\n\t.onChange_ValidationOption = \"None\"\n\t.Varname = \"LEADSOURCE\"\n\t.Column.LabelPosition = \"Left\"\n\t.Controltype = \"Label\"\n\t.Label.InLineStyle = \"text-align: right;\"\n\t.Label.ClassName = \"\"\n\t.BreakType = \"None\"\n\t.nCols = 1\n\t.Column.Hide = .f.\n\t.BaseFieldExpression = \"LeadSource\"\n\t.SourceAlias = \"\"\n\t.Column.Heading = \"Lead Source\"\n\t.Column.Sort = \"LeadSource\"\n\t.Column.FirstClickDirection = \"A\"\nend with\nwith tmpl.field_info[4]\n\t.Fieldname = \"SaleAmt\"\n\t.Scope = \"Local\"\n\t.DisplayFormat = \"\"\n\t.DisplayUnFormat = \"\"\n\t.ConditionalStyle = \"\"\n\t.ConditionalStyleLevel = \"Cell\"\n\t.ClientSideConditionalStyle = \"\"\n\t.ClientSideConditionalStyleLevel = \"Cell\"\n\t.QBEDisable = .f.\n\t.QBEInlineStyle = \"\"\n\t.QBEOptionsJSON = \"\"\n\t.canBeUsedInWhereClause = .t.\n\t.autoincrement = .f.\n\t.portableType = \"Double\"\n\t.nativeType = \"float\"\n\t.Type = \"N\"\n\t.UserDefinedClientSideValidationJavascript = \"\"\n\t.onChange_ValidationOption = \"None\"\n\t.Varname = \"SALEAMT\"\n\t.Column.LabelPosition = \"Left\"\n\t.Controltype = \"Label\"\n\t.Label.InLineStyle = \"text-align: right;\"\n\t.Label.ClassName = \"\"\n\t.BreakType = \"None\"\n\t.nCols = 1\n\t.Column.Hide = .f.\n\t.BaseFieldExpression = \"SaleAmt\"\n\t.SourceAlias = \"\"\n\t.Column.Heading = \"Sale Amt\"\n\t.Column.Sort = \"SaleAmt\"\n\t.Column.FirstClickDirection = \"A\"\nend with\nwith tmpl.field_info[5]\n\t.Fieldname = \"SaleDate\"\n\t.Scope = \"Local\"\n\t.DisplayFormat = \"time(\\\"{grid.clientSideDateFormat} 0h:0m 0s am\\\",<value>)\"\n\t.DisplayUnFormat = \"\"\n\t.ConditionalStyle = \"\"\n\t.ConditionalStyleLevel = \"Cell\"\n\t.ClientSideConditionalStyle = \"\"\n\t.ClientSideConditionalStyleLevel = \"Cell\"\n\t.QBEDisable = .f.\n\t.QBEInlineStyle = \"\"\n\t.QBEOptionsJSON = \"\"\n\t.canBeUsedInWhereClause = .t.\n\t.autoincrement = .f.\n\t.portableType = \"DateTime\"\n\t.nativeType = \"datetime\"\n\t.Type = \"T\"\n\t.UserDefinedClientSideValidationJavascript = \"\"\n\t.onChange_ValidationOption = \"None\"\n\t.Varname = \"SALEDATE\"\n\t.Column.LabelPosition = \"Left\"\n\t.Controltype = \"Label\"\n\t.Label.InLineStyle = \"\"\n\t.Label.ClassName = \"\"\n\t.BreakType = \"None\"\n\t.nCols = 1\n\t.Column.Hide = .f.\n\t.BaseFieldExpression = \"SaleDate\"\n\t.SourceAlias = \"\"\n\t.Column.Heading = \"Sale Date\"\n\t.Column.Sort = \"SaleDate\"\n\t.Column.FirstClickDirection = \"A\"\nend with\ntmpl.RecordNavigationStyle = \"NavigationButtons\"\ntmpl.fetchMoreRecordsButton.text = \"More Records\"\ntmpl.fetchMoreRecordsButton.style = \"\"\ntmpl.RecNav.SuppressIfOnlyOnePage = .t.\ntmpl.RecNav.First_Label = \"First\"\ntmpl.RecNav.Has_First_Button = .t.\ntmpl.RecNav.Has_Last_Button = .t.\ntmpl.RecNav.Has_Next_Button = .t.\ntmpl.RecNav.Has_Prev_Button = .t.\ntmpl.RecNav.HTML_Template_source = \"Computed\"\ntmpl.RecNav.Justify = \"Left\"\ntmpl.RecNav.Last_Label = \"Last\"\ntmpl.RecNav.Next_Label = \"Next\"\ntmpl.RecNav.Number_of_page_links = 10\ntmpl.RecNav.Page_Numbering_Style = 3\ntmpl.RecNav.PagesTemplate_w_PageCount = \"{PageNumber} of {PageCount}\"\ntmpl.RecNav.PagesTemplate_wout_PageCount = \"{PageNumber}\"\ntmpl.RecNav.Position = 1\ntmpl.RecNav.suppress_recNavBar_if_no_records = .f.\ntmpl.RecNav.Prev_Label = \"Prev\"\ntmpl.RecNav.Show_disabled_controls = .t.\ntmpl.RecNav.Show_Page_Count = .t.\ntmpl.RecNav.Use_Images = .f.\ntmpl.gridToolbarTemplate = <<%html%\n%html%\ntmpl.gridToolbarTemplateEditable = <<%html%\n%html%\ntmpl.style_name = \"MobRed\"\ntmpl.resolveAbstractClassNames = .t.\ntmpl.style_type = \"Alpha Five\"\ntmpl.UseSimpleStyles = .f.\ntmpl.overrideStylesForJavascriptObjects = .f.\ntmpl.searchBehavior = \"\"\ntmpl.GUID = \"ac9d485d-06ba-499b-a67f-245a2f576956\"\ntmpl.onlyIncludeSelectedFieldsInQuery = .t.\ntmpl.hasGroupBreaks = .f.\ntmpl.groupBreaks.expression1 = \"\"\ntmpl.groupBreaks.direction1 = \"\"\ntmpl.groupBreaks.header1 = <<%HTML%\n%HTML%\ntmpl.groupBreaks.footer1 = <<%HTML%\n%HTML%\ntmpl.groupBreaks.collapseAllGroupsOnInitialDisplay = .f.\ntmpl.timestamp = \"2019-09-05:12-55-51.804\"\ntmpl.resolveAbstractClassNamesAtDesignTime  = .f.\ntmpl.resolveAbstractIconNamesAtDesignTime = .f. \ntmpl.useLegacyDatePicker = .f.\ntmpl.javascriptUnboundActionDefinitions = <<%javascriptActions%\n%javascriptActions%\n\ntmpl.precalc.sessionVarsInShowHideExpns = <<%sessionvars%\n%sessionvars%\ntmpl.precalc.unboundActionsXbasicFunctions = \"\"\ntmpl.precalc.includeS3Javascript = .f.",
         "datasourceType": 3,
         "componentName": "Leads_Grid",
         "query_ado": {
@@ -126,11 +126,11 @@
                     },
                     "TextBox": {
                         "InLineStyle": "text-align: right;",
-                        "className": "",
                         "Size": 20,
-                        "readonly": false,
                         "MaxLength": 20,
-                        "stylefieldiferror": true
+                        "stylefieldiferror": true,
+                        "className": "",
+                        "readonly": false
                     },
                     "Watermark": {
                         "text": "<FieldLabel>"
@@ -147,9 +147,9 @@
                                 "width": "2in"
                             },
                             "style": "font: 9pt Arial;",
+                            "editButtonText": "Edit...",
                             "toolbaricons": "",
-                            "toolbardefinition": "",
-                            "editButtonText": "Edit..."
+                            "toolbardefinition": ""
                         }
                     },
                     "radiobutton": {
@@ -188,12 +188,6 @@
                         "OpenMethod": "ClickIcon",
                         "UseComboBoxes": true,
                         "DateFormat": "<DefaultTimeFormat>",
-                        "friendlyDisplay": {
-                            "settingsJSON": "",
-                            "enabled": false
-                        },
-                        "showPreDefinedDates": false,
-                        "preDefinedDatesJSON": "",
                         "LowYear": 1950,
                         "HighYear": 2050,
                         "SwitchYear": 20,
@@ -201,7 +195,13 @@
                         "showDaysOfWeek": true,
                         "showTodayButton": true,
                         "OKButtonLabel": "OK",
-                        "CancelButtonLabel": "Cancel"
+                        "CancelButtonLabel": "Cancel",
+                        "friendlyDisplay": {
+                            "settingsJSON": "",
+                            "enabled": false
+                        },
+                        "showPreDefinedDates": false,
+                        "preDefinedDatesJSON": ""
                     },
                     "column": {
                         "heading": "Lead ID",
@@ -213,7 +213,6 @@
                     "initial_value": "NULL",
                     "BreakType": "None",
                     "nCols": 1,
-                    "columnQBEOptionsJSON": "",
                     "link": {
                         "StaticImageInlineStyle": "border-style: none;",
                         "DisplayType": "Value in Field",
@@ -276,7 +275,8 @@
                     "displayODFlat": "{F=Tahoma,8}{I:'a5_blue_text'}{T=.2}{C=}{DATA=LeadID}LeadID",
                     "scope": "Local",
                     "tmplTxtComputed": true,
-                    "tmplTxt": "with tmpl.field_info[_fieldNumber_]\n\t.Fieldname = \"LeadID\"\n\t.Scope = \"Local\"\n\t.DisplayFormat = \"\"\n\t.DisplayUnFormat = \"\"\n\t.ConditionalStyle = \"\"\n\t.ConditionalStyleLevel = \"Cell\"\n\t.ClientSideConditionalStyle = \"\"\n\t.ClientSideConditionalStyleLevel = \"Cell\"\n\t.QBEDisable = .f.\n\t.QBEInlineStyle = \"\"\n\t.QBEOptionsJSON = \"\"\n\t.canBeUsedInWhereClause = .t.\n\t.autoincrement = .t.\n\t.portableType = \"Integer32\"\n\t.nativeType = \"int\"\n\t.Type = \"N\"\n\t.UserDefinedClientSideValidationJavascript = \"\"\n\t.onChange_ValidationOption = \"None\"\n\t.Varname = \"LEADID\"\n\t.Column.LabelPosition = \"Left\"\n\t.Controltype = \"Label\"\n\t.Label.InLineStyle = \"text-align: right;\"\n\t.Label.ClassName = \"\"\n\t.BreakType = \"None\"\n\t.nCols = 1\n\t.Column.Hide = .f.\n\t.BaseFieldExpression = \"LeadID\"\n\t.SourceAlias = \"\"\n\t.Column.Heading = \"Lead ID\"\n\t.Column.Sort = \"LeadID\"\n\t.Column.FirstClickDirection = \"A\"\nend with\n\n\n\n"
+                    "tmplTxt": "with tmpl.field_info[_fieldNumber_]\n\t.Fieldname = \"LeadID\"\n\t.Scope = \"Local\"\n\t.DisplayFormat = \"\"\n\t.DisplayUnFormat = \"\"\n\t.ConditionalStyle = \"\"\n\t.ConditionalStyleLevel = \"Cell\"\n\t.ClientSideConditionalStyle = \"\"\n\t.ClientSideConditionalStyleLevel = \"Cell\"\n\t.QBEDisable = .f.\n\t.QBEInlineStyle = \"\"\n\t.QBEOptionsJSON = \"\"\n\t.canBeUsedInWhereClause = .t.\n\t.autoincrement = .t.\n\t.portableType = \"Integer32\"\n\t.nativeType = \"int\"\n\t.Type = \"N\"\n\t.UserDefinedClientSideValidationJavascript = \"\"\n\t.onChange_ValidationOption = \"None\"\n\t.Varname = \"LEADID\"\n\t.Column.LabelPosition = \"Left\"\n\t.Controltype = \"Label\"\n\t.Label.InLineStyle = \"text-align: right;\"\n\t.Label.ClassName = \"\"\n\t.BreakType = \"None\"\n\t.nCols = 1\n\t.Column.Hide = .f.\n\t.BaseFieldExpression = \"LeadID\"\n\t.SourceAlias = \"\"\n\t.Column.Heading = \"Lead ID\"\n\t.Column.Sort = \"LeadID\"\n\t.Column.FirstClickDirection = \"A\"\nend with\n\n\n\n\n",
+                    "columnQBEOptionsJSON": ""
                 },
                 {
                     "fieldname": "CUID",
@@ -345,11 +345,11 @@
                     },
                     "TextBox": {
                         "InLineStyle": "text-align: right;",
-                        "className": "",
                         "Size": 20,
-                        "readonly": false,
                         "MaxLength": 20,
-                        "stylefieldiferror": true
+                        "stylefieldiferror": true,
+                        "className": "",
+                        "readonly": false
                     },
                     "Watermark": {
                         "text": "<FieldLabel>"
@@ -366,9 +366,9 @@
                                 "width": "2in"
                             },
                             "style": "font: 9pt Arial;",
+                            "editButtonText": "Edit...",
                             "toolbaricons": "",
-                            "toolbardefinition": "",
-                            "editButtonText": "Edit..."
+                            "toolbardefinition": ""
                         }
                     },
                     "radiobutton": {
@@ -407,12 +407,6 @@
                         "OpenMethod": "ClickIcon",
                         "UseComboBoxes": true,
                         "DateFormat": "<DefaultTimeFormat>",
-                        "friendlyDisplay": {
-                            "settingsJSON": "",
-                            "enabled": false
-                        },
-                        "showPreDefinedDates": false,
-                        "preDefinedDatesJSON": "",
                         "LowYear": 1950,
                         "HighYear": 2050,
                         "SwitchYear": 20,
@@ -420,7 +414,13 @@
                         "showDaysOfWeek": true,
                         "showTodayButton": true,
                         "OKButtonLabel": "OK",
-                        "CancelButtonLabel": "Cancel"
+                        "CancelButtonLabel": "Cancel",
+                        "friendlyDisplay": {
+                            "settingsJSON": "",
+                            "enabled": false
+                        },
+                        "showPreDefinedDates": false,
+                        "preDefinedDatesJSON": ""
                     },
                     "column": {
                         "heading": "CUID",
@@ -432,7 +432,6 @@
                     "initial_value": "NULL",
                     "BreakType": "None",
                     "nCols": 1,
-                    "columnQBEOptionsJSON": "",
                     "link": {
                         "StaticImageInlineStyle": "border-style: none;",
                         "DisplayType": "Value in Field",
@@ -494,7 +493,8 @@
                     "displayODFlat": "{F=Tahoma,8}{I:'a5_blue_text'}{T=.2}{C=}{DATA=CUID}CUID",
                     "scope": "Local",
                     "tmplTxtComputed": true,
-                    "tmplTxt": "with tmpl.field_info[_fieldNumber_]\n\t.Fieldname = \"CUID\"\n\t.Scope = \"Local\"\n\t.DisplayFormat = \"\"\n\t.DisplayUnFormat = \"\"\n\t.ConditionalStyle = \"\"\n\t.ConditionalStyleLevel = \"Cell\"\n\t.ClientSideConditionalStyle = \"\"\n\t.ClientSideConditionalStyleLevel = \"Cell\"\n\t.QBEDisable = .f.\n\t.QBEInlineStyle = \"\"\n\t.QBEOptionsJSON = \"\"\n\t.canBeUsedInWhereClause = .t.\n\t.autoincrement = .f.\n\t.portableType = \"Integer32\"\n\t.nativeType = \"int\"\n\t.Type = \"N\"\n\t.UserDefinedClientSideValidationJavascript = \"\"\n\t.onChange_ValidationOption = \"None\"\n\t.Varname = \"CUID\"\n\t.Column.LabelPosition = \"Left\"\n\t.Controltype = \"Label\"\n\t.Label.InLineStyle = \"text-align: right;\"\n\t.Label.ClassName = \"\"\n\t.BreakType = \"None\"\n\t.nCols = 1\n\t.Column.Hide = .f.\n\t.BaseFieldExpression = \"CUID\"\n\t.SourceAlias = \"\"\n\t.Column.Heading = \"CUID\"\n\t.Column.Sort = \"CUID\"\n\t.Column.FirstClickDirection = \"A\"\nend with\n\n\n\n"
+                    "tmplTxt": "with tmpl.field_info[_fieldNumber_]\n\t.Fieldname = \"CUID\"\n\t.Scope = \"Local\"\n\t.DisplayFormat = \"\"\n\t.DisplayUnFormat = \"\"\n\t.ConditionalStyle = \"\"\n\t.ConditionalStyleLevel = \"Cell\"\n\t.ClientSideConditionalStyle = \"\"\n\t.ClientSideConditionalStyleLevel = \"Cell\"\n\t.QBEDisable = .f.\n\t.QBEInlineStyle = \"\"\n\t.QBEOptionsJSON = \"\"\n\t.canBeUsedInWhereClause = .t.\n\t.autoincrement = .f.\n\t.portableType = \"Integer32\"\n\t.nativeType = \"int\"\n\t.Type = \"N\"\n\t.UserDefinedClientSideValidationJavascript = \"\"\n\t.onChange_ValidationOption = \"None\"\n\t.Varname = \"CUID\"\n\t.Column.LabelPosition = \"Left\"\n\t.Controltype = \"Label\"\n\t.Label.InLineStyle = \"text-align: right;\"\n\t.Label.ClassName = \"\"\n\t.BreakType = \"None\"\n\t.nCols = 1\n\t.Column.Hide = .f.\n\t.BaseFieldExpression = \"CUID\"\n\t.SourceAlias = \"\"\n\t.Column.Heading = \"CUID\"\n\t.Column.Sort = \"CUID\"\n\t.Column.FirstClickDirection = \"A\"\nend with\n\n\n\n\n",
+                    "columnQBEOptionsJSON": ""
                 },
                 {
                     "fieldname": "LeadSource",
@@ -563,11 +563,11 @@
                     },
                     "TextBox": {
                         "InLineStyle": "text-align: right;",
-                        "className": "",
                         "Size": 20,
-                        "readonly": false,
                         "MaxLength": 20,
-                        "stylefieldiferror": true
+                        "stylefieldiferror": true,
+                        "className": "",
+                        "readonly": false
                     },
                     "Watermark": {
                         "text": "<FieldLabel>"
@@ -584,9 +584,9 @@
                                 "width": "2in"
                             },
                             "style": "font: 9pt Arial;",
+                            "editButtonText": "Edit...",
                             "toolbaricons": "",
-                            "toolbardefinition": "",
-                            "editButtonText": "Edit..."
+                            "toolbardefinition": ""
                         }
                     },
                     "radiobutton": {
@@ -625,12 +625,6 @@
                         "OpenMethod": "ClickIcon",
                         "UseComboBoxes": true,
                         "DateFormat": "<DefaultTimeFormat>",
-                        "friendlyDisplay": {
-                            "settingsJSON": "",
-                            "enabled": false
-                        },
-                        "showPreDefinedDates": false,
-                        "preDefinedDatesJSON": "",
                         "LowYear": 1950,
                         "HighYear": 2050,
                         "SwitchYear": 20,
@@ -638,7 +632,13 @@
                         "showDaysOfWeek": true,
                         "showTodayButton": true,
                         "OKButtonLabel": "OK",
-                        "CancelButtonLabel": "Cancel"
+                        "CancelButtonLabel": "Cancel",
+                        "friendlyDisplay": {
+                            "settingsJSON": "",
+                            "enabled": false
+                        },
+                        "showPreDefinedDates": false,
+                        "preDefinedDatesJSON": ""
                     },
                     "column": {
                         "heading": "Lead Source",
@@ -650,7 +650,6 @@
                     "initial_value": "NULL",
                     "BreakType": "None",
                     "nCols": 1,
-                    "columnQBEOptionsJSON": "",
                     "link": {
                         "StaticImageInlineStyle": "border-style: none;",
                         "DisplayType": "Value in Field",
@@ -712,7 +711,8 @@
                     "displayODFlat": "{F=Tahoma,8}{I:'a5_blue_text'}{T=.2}{C=}{DATA=LeadSource}LeadSource",
                     "scope": "Local",
                     "tmplTxtComputed": true,
-                    "tmplTxt": "with tmpl.field_info[_fieldNumber_]\n\t.Fieldname = \"LeadSource\"\n\t.Scope = \"Local\"\n\t.DisplayFormat = \"\"\n\t.DisplayUnFormat = \"\"\n\t.ConditionalStyle = \"\"\n\t.ConditionalStyleLevel = \"Cell\"\n\t.ClientSideConditionalStyle = \"\"\n\t.ClientSideConditionalStyleLevel = \"Cell\"\n\t.QBEDisable = .f.\n\t.QBEInlineStyle = \"\"\n\t.QBEOptionsJSON = \"\"\n\t.canBeUsedInWhereClause = .t.\n\t.autoincrement = .f.\n\t.portableType = \"Integer32\"\n\t.nativeType = \"int\"\n\t.Type = \"N\"\n\t.UserDefinedClientSideValidationJavascript = \"\"\n\t.onChange_ValidationOption = \"None\"\n\t.Varname = \"LEADSOURCE\"\n\t.Column.LabelPosition = \"Left\"\n\t.Controltype = \"Label\"\n\t.Label.InLineStyle = \"text-align: right;\"\n\t.Label.ClassName = \"\"\n\t.BreakType = \"None\"\n\t.nCols = 1\n\t.Column.Hide = .f.\n\t.BaseFieldExpression = \"LeadSource\"\n\t.SourceAlias = \"\"\n\t.Column.Heading = \"Lead Source\"\n\t.Column.Sort = \"LeadSource\"\n\t.Column.FirstClickDirection = \"A\"\nend with\n\n\n\n"
+                    "tmplTxt": "with tmpl.field_info[_fieldNumber_]\n\t.Fieldname = \"LeadSource\"\n\t.Scope = \"Local\"\n\t.DisplayFormat = \"\"\n\t.DisplayUnFormat = \"\"\n\t.ConditionalStyle = \"\"\n\t.ConditionalStyleLevel = \"Cell\"\n\t.ClientSideConditionalStyle = \"\"\n\t.ClientSideConditionalStyleLevel = \"Cell\"\n\t.QBEDisable = .f.\n\t.QBEInlineStyle = \"\"\n\t.QBEOptionsJSON = \"\"\n\t.canBeUsedInWhereClause = .t.\n\t.autoincrement = .f.\n\t.portableType = \"Integer32\"\n\t.nativeType = \"int\"\n\t.Type = \"N\"\n\t.UserDefinedClientSideValidationJavascript = \"\"\n\t.onChange_ValidationOption = \"None\"\n\t.Varname = \"LEADSOURCE\"\n\t.Column.LabelPosition = \"Left\"\n\t.Controltype = \"Label\"\n\t.Label.InLineStyle = \"text-align: right;\"\n\t.Label.ClassName = \"\"\n\t.BreakType = \"None\"\n\t.nCols = 1\n\t.Column.Hide = .f.\n\t.BaseFieldExpression = \"LeadSource\"\n\t.SourceAlias = \"\"\n\t.Column.Heading = \"Lead Source\"\n\t.Column.Sort = \"LeadSource\"\n\t.Column.FirstClickDirection = \"A\"\nend with\n\n\n\n\n",
+                    "columnQBEOptionsJSON": ""
                 },
                 {
                     "fieldname": "SaleAmt",
@@ -781,11 +781,11 @@
                     },
                     "TextBox": {
                         "InLineStyle": "text-align: right;",
-                        "className": "",
                         "Size": 20,
-                        "readonly": false,
                         "MaxLength": 20,
-                        "stylefieldiferror": true
+                        "stylefieldiferror": true,
+                        "className": "",
+                        "readonly": false
                     },
                     "Watermark": {
                         "text": "<FieldLabel>"
@@ -802,9 +802,9 @@
                                 "width": "2in"
                             },
                             "style": "font: 9pt Arial;",
+                            "editButtonText": "Edit...",
                             "toolbaricons": "",
-                            "toolbardefinition": "",
-                            "editButtonText": "Edit..."
+                            "toolbardefinition": ""
                         }
                     },
                     "radiobutton": {
@@ -843,12 +843,6 @@
                         "OpenMethod": "ClickIcon",
                         "UseComboBoxes": true,
                         "DateFormat": "<DefaultTimeFormat>",
-                        "friendlyDisplay": {
-                            "settingsJSON": "",
-                            "enabled": false
-                        },
-                        "showPreDefinedDates": false,
-                        "preDefinedDatesJSON": "",
                         "LowYear": 1950,
                         "HighYear": 2050,
                         "SwitchYear": 20,
@@ -856,7 +850,13 @@
                         "showDaysOfWeek": true,
                         "showTodayButton": true,
                         "OKButtonLabel": "OK",
-                        "CancelButtonLabel": "Cancel"
+                        "CancelButtonLabel": "Cancel",
+                        "friendlyDisplay": {
+                            "settingsJSON": "",
+                            "enabled": false
+                        },
+                        "showPreDefinedDates": false,
+                        "preDefinedDatesJSON": ""
                     },
                     "column": {
                         "heading": "Sale Amt",
@@ -868,7 +868,6 @@
                     "initial_value": "NULL",
                     "BreakType": "None",
                     "nCols": 1,
-                    "columnQBEOptionsJSON": "",
                     "link": {
                         "StaticImageInlineStyle": "border-style: none;",
                         "DisplayType": "Value in Field",
@@ -930,7 +929,8 @@
                     "displayODFlat": "{F=Tahoma,8}{I:'a5_blue_text'}{T=.2}{C=}{DATA=SaleAmt}SaleAmt",
                     "scope": "Local",
                     "tmplTxtComputed": true,
-                    "tmplTxt": "with tmpl.field_info[_fieldNumber_]\n\t.Fieldname = \"SaleAmt\"\n\t.Scope = \"Local\"\n\t.DisplayFormat = \"\"\n\t.DisplayUnFormat = \"\"\n\t.ConditionalStyle = \"\"\n\t.ConditionalStyleLevel = \"Cell\"\n\t.ClientSideConditionalStyle = \"\"\n\t.ClientSideConditionalStyleLevel = \"Cell\"\n\t.QBEDisable = .f.\n\t.QBEInlineStyle = \"\"\n\t.QBEOptionsJSON = \"\"\n\t.canBeUsedInWhereClause = .t.\n\t.autoincrement = .f.\n\t.portableType = \"Double\"\n\t.nativeType = \"float\"\n\t.Type = \"N\"\n\t.UserDefinedClientSideValidationJavascript = \"\"\n\t.onChange_ValidationOption = \"None\"\n\t.Varname = \"SALEAMT\"\n\t.Column.LabelPosition = \"Left\"\n\t.Controltype = \"Label\"\n\t.Label.InLineStyle = \"text-align: right;\"\n\t.Label.ClassName = \"\"\n\t.BreakType = \"None\"\n\t.nCols = 1\n\t.Column.Hide = .f.\n\t.BaseFieldExpression = \"SaleAmt\"\n\t.SourceAlias = \"\"\n\t.Column.Heading = \"Sale Amt\"\n\t.Column.Sort = \"SaleAmt\"\n\t.Column.FirstClickDirection = \"A\"\nend with\n\n\n\n"
+                    "tmplTxt": "with tmpl.field_info[_fieldNumber_]\n\t.Fieldname = \"SaleAmt\"\n\t.Scope = \"Local\"\n\t.DisplayFormat = \"\"\n\t.DisplayUnFormat = \"\"\n\t.ConditionalStyle = \"\"\n\t.ConditionalStyleLevel = \"Cell\"\n\t.ClientSideConditionalStyle = \"\"\n\t.ClientSideConditionalStyleLevel = \"Cell\"\n\t.QBEDisable = .f.\n\t.QBEInlineStyle = \"\"\n\t.QBEOptionsJSON = \"\"\n\t.canBeUsedInWhereClause = .t.\n\t.autoincrement = .f.\n\t.portableType = \"Double\"\n\t.nativeType = \"float\"\n\t.Type = \"N\"\n\t.UserDefinedClientSideValidationJavascript = \"\"\n\t.onChange_ValidationOption = \"None\"\n\t.Varname = \"SALEAMT\"\n\t.Column.LabelPosition = \"Left\"\n\t.Controltype = \"Label\"\n\t.Label.InLineStyle = \"text-align: right;\"\n\t.Label.ClassName = \"\"\n\t.BreakType = \"None\"\n\t.nCols = 1\n\t.Column.Hide = .f.\n\t.BaseFieldExpression = \"SaleAmt\"\n\t.SourceAlias = \"\"\n\t.Column.Heading = \"Sale Amt\"\n\t.Column.Sort = \"SaleAmt\"\n\t.Column.FirstClickDirection = \"A\"\nend with\n\n\n\n\n",
+                    "columnQBEOptionsJSON": ""
                 },
                 {
                     "fieldname": "SaleDate",
@@ -997,11 +997,11 @@
                         "HighYear": 2050
                     },
                     "TextBox": {
-                        "className": "",
                         "Size": 20,
-                        "readonly": false,
                         "MaxLength": 20,
-                        "stylefieldiferror": true
+                        "stylefieldiferror": true,
+                        "className": "",
+                        "readonly": false
                     },
                     "Watermark": {
                         "text": "<FieldLabel>"
@@ -1018,9 +1018,9 @@
                                 "width": "2in"
                             },
                             "style": "font: 9pt Arial;",
+                            "editButtonText": "Edit...",
                             "toolbaricons": "",
-                            "toolbardefinition": "",
-                            "editButtonText": "Edit..."
+                            "toolbardefinition": ""
                         }
                     },
                     "radiobutton": {
@@ -1060,12 +1060,6 @@
                         "OpenMethod": "ClickIcon",
                         "UseComboBoxes": true,
                         "DateFormat": "<DefaultDateOnlyFormat>",
-                        "friendlyDisplay": {
-                            "settingsJSON": "",
-                            "enabled": false
-                        },
-                        "showPreDefinedDates": false,
-                        "preDefinedDatesJSON": "",
                         "LowYear": 1950,
                         "HighYear": 2050,
                         "SwitchYear": 20,
@@ -1073,7 +1067,13 @@
                         "showDaysOfWeek": true,
                         "showTodayButton": true,
                         "OKButtonLabel": "OK",
-                        "CancelButtonLabel": "Cancel"
+                        "CancelButtonLabel": "Cancel",
+                        "friendlyDisplay": {
+                            "settingsJSON": "",
+                            "enabled": false
+                        },
+                        "showPreDefinedDates": false,
+                        "preDefinedDatesJSON": ""
                     },
                     "column": {
                         "heading": "Sale Date",
@@ -1085,7 +1085,6 @@
                     "initial_value": "NULL",
                     "BreakType": "None",
                     "nCols": 1,
-                    "columnQBEOptionsJSON": "",
                     "link": {
                         "StaticImageInlineStyle": "border-style: none;",
                         "DisplayType": "Value in Field",
@@ -1148,7 +1147,8 @@
                     "displayODFlat": "{F=Tahoma,8}{I:'a5_blue_text'}{T=.2}{C=}{DATA=SaleDate}SaleDate",
                     "scope": "Local",
                     "tmplTxtComputed": true,
-                    "tmplTxt": "with tmpl.field_info[_fieldNumber_]\n\t.Fieldname = \"SaleDate\"\n\t.Scope = \"Local\"\n\t.DisplayFormat = \"time(\\\"{grid.clientSideDateFormat} 0h:0m 0s am\\\",<value>)\"\n\t.DisplayUnFormat = \"\"\n\t.ConditionalStyle = \"\"\n\t.ConditionalStyleLevel = \"Cell\"\n\t.ClientSideConditionalStyle = \"\"\n\t.ClientSideConditionalStyleLevel = \"Cell\"\n\t.QBEDisable = .f.\n\t.QBEInlineStyle = \"\"\n\t.QBEOptionsJSON = \"\"\n\t.canBeUsedInWhereClause = .t.\n\t.autoincrement = .f.\n\t.portableType = \"DateTime\"\n\t.nativeType = \"datetime\"\n\t.Type = \"T\"\n\t.UserDefinedClientSideValidationJavascript = \"\"\n\t.onChange_ValidationOption = \"None\"\n\t.Varname = \"SALEDATE\"\n\t.Column.LabelPosition = \"Left\"\n\t.Controltype = \"Label\"\n\t.Label.InLineStyle = \"\"\n\t.Label.ClassName = \"\"\n\t.BreakType = \"None\"\n\t.nCols = 1\n\t.Column.Hide = .f.\n\t.BaseFieldExpression = \"SaleDate\"\n\t.SourceAlias = \"\"\n\t.Column.Heading = \"Sale Date\"\n\t.Column.Sort = \"SaleDate\"\n\t.Column.FirstClickDirection = \"A\"\nend with\n\n\n\n"
+                    "tmplTxt": "with tmpl.field_info[_fieldNumber_]\n\t.Fieldname = \"SaleDate\"\n\t.Scope = \"Local\"\n\t.DisplayFormat = \"time(\\\"{grid.clientSideDateFormat} 0h:0m 0s am\\\",<value>)\"\n\t.DisplayUnFormat = \"\"\n\t.ConditionalStyle = \"\"\n\t.ConditionalStyleLevel = \"Cell\"\n\t.ClientSideConditionalStyle = \"\"\n\t.ClientSideConditionalStyleLevel = \"Cell\"\n\t.QBEDisable = .f.\n\t.QBEInlineStyle = \"\"\n\t.QBEOptionsJSON = \"\"\n\t.canBeUsedInWhereClause = .t.\n\t.autoincrement = .f.\n\t.portableType = \"DateTime\"\n\t.nativeType = \"datetime\"\n\t.Type = \"T\"\n\t.UserDefinedClientSideValidationJavascript = \"\"\n\t.onChange_ValidationOption = \"None\"\n\t.Varname = \"SALEDATE\"\n\t.Column.LabelPosition = \"Left\"\n\t.Controltype = \"Label\"\n\t.Label.InLineStyle = \"\"\n\t.Label.ClassName = \"\"\n\t.BreakType = \"None\"\n\t.nCols = 1\n\t.Column.Hide = .f.\n\t.BaseFieldExpression = \"SaleDate\"\n\t.SourceAlias = \"\"\n\t.Column.Heading = \"Sale Date\"\n\t.Column.Sort = \"SaleDate\"\n\t.Column.FirstClickDirection = \"A\"\nend with\n\n\n\n\n",
+                    "columnQBEOptionsJSON": ""
                 }
             ]
         },
@@ -1320,7 +1320,7 @@
         "PreCalcMode": "Standard",
         "FontSize": "Medium",
         "show_title": true,
-        "title": "<strong><font size=\"6\">Leads</font></strong>",
+        "title": "<strong><font size=\"2\">Leads</font></strong>",
         "style_type": "Alpha Five",
         "useCompactTheme": true,
         "showPulseEffect": true,
@@ -1571,7 +1571,7 @@
         "info": {
             "createdBy": "Addy",
             "LastUpdatedBy": "Addy",
-            "DateUpdated": "26-08-2019 06:24:51 99 pm",
+            "DateUpdated": "05-09-2019 12:55:51 52 pm",
             "DateCreated": "26-08-2019 06:08:14 50 pm"
         },
         "BuilderVersion": 2,
@@ -1579,6 +1579,7 @@
         "embeddedMode": false,
         "_style_versionNumber": 2,
         "AjaxOn": true,
+        "fpInstalled": "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",
         "componentFilename": "C:\\Users\\Addy\\OneDrive\\Documents\\AlphaAnywhere V12\\Ofifice Gird\\Ofifice Gird.WebProjects\\Default.WebProject\\Leads_Grid.a5wcmp",
         "PAliases": {
             "alias": "[PathAlias.ADB_Path]\n",
@@ -1586,11 +1587,10 @@
             "alias_aliasExpanded": "[PathAlias.ADB_Path]|C:\\Users\\Addy\\OneDrive\\Documents\\AlphaAnywhere V12\\Ofifice Gird"
         },
         "_row_onHover": true,
-        "__wphostname": "Internet Explorer",
-        "fpInstalled": "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",
-        "A5SaveTimeStamp": "20190826182452108",
         "ADB_PATH": "C:\\Users\\Addy\\OneDrive\\Documents\\AlphaAnywhere V12\\Ofifice Gird",
         "EXE_PATH": "C:\\Program Files (x86)\\a5V12",
-        "VersionNumber": 4
+        "VersionNumber": 4,
+        "__wphostname": "Internet Explorer",
+        "A5SaveTimeStamp": "20190905125551707"
     }
 }
